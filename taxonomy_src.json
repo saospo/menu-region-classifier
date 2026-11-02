@@ -1,0 +1,5493 @@
+{
+  "meta": {
+    "source": "Chinese Cooking Demystified, '63 Chinese Cuisines: the Complete Guide' (2024)",
+    "source_url": "https://chinesecookingdemystified.substack.com/p/63-chinese-cuisines-the-complete",
+    "coverage": "All mainland sections of the article plus Hong Kong/Macau, Taiwan and Southeast Asian Chinese. Pan-Chinese and American-Chinese are additions not in the article.",
+    "notes": "Dish names from the article. Aliases are menu-style spellings added for matching. weight_override marks dishes that are on nearly every US Chinese menu and are weak evidence. Markers include some well-known dishes the article doesn't list (e.g. 小笼包, 炸酱面, 羊肉串); they count weakly."
+  },
+  "subcuisines": [
+    {
+      "id": "guangdong_cantonese",
+      "name": "Cantonese",
+      "zh_name": "粤菜",
+      "province": "Guangdong",
+      "neighbors": [
+        "guangdong_teochew",
+        "coastal_qinlianleiqiong",
+        "guangxi_yongyu"
+      ],
+      "self_labels": [
+        "Cantonese",
+        "Canton",
+        "粤",
+        "广东",
+        "Guangzhou",
+        "广州",
+        "Shunde",
+        "顺德"
+      ],
+      "dishes": [
+        {
+          "en": "Wonton noodles",
+          "zh": "云吞面",
+          "aliases": [
+            "wonton mein",
+            "wonton noodle soup",
+            "wonton mee"
+          ],
+          "weight_override": 0.25
+        },
+        {
+          "en": "Siu mai",
+          "zh": "烧卖",
+          "zh_alt": [
+            "烧麦"
+          ],
+          "aliases": [
+            "shumai",
+            "siu mai",
+            "shu mai"
+          ],
+          "weight_override": 0.2
+        },
+        {
+          "en": "Rice noodle roll",
+          "zh": "肠粉",
+          "aliases": [
+            "cheung fun",
+            "cheong fun",
+            "chee cheong fun",
+            "rice noodle roll",
+            "rice roll"
+          ],
+          "weight_override": 0.5
+        },
+        {
+          "en": "Claypot rice",
+          "zh": "煲仔饭",
+          "aliases": [
+            "clay pot rice",
+            "bo zai fan",
+            "claypot rice"
+          ]
+        },
+        {
+          "en": "Char siu rice",
+          "zh": "叉烧饭",
+          "aliases": [
+            "char siu rice",
+            "bbq pork rice",
+            "roast pork over rice"
+          ],
+          "weight_override": 0.3
+        },
+        {
+          "en": "Double-boiled soup",
+          "zh": "炖品",
+          "zh_alt": [
+            "炖汤"
+          ],
+          "aliases": [
+            "double boiled soup",
+            "double-boiled soup"
+          ]
+        },
+        {
+          "en": "Roast goose",
+          "zh": "烧鹅",
+          "aliases": [
+            "roast goose",
+            "siu ngo"
+          ]
+        },
+        {
+          "en": "Crispy roast pork belly",
+          "zh": "烧肉",
+          "aliases": [
+            "siu yuk",
+            "crispy pork belly",
+            "roast pork belly"
+          ],
+          "weight_override": 0.4
+        }
+      ],
+      "markers": [
+        "蚝油",
+        "oyster sauce",
+        "豉汁",
+        "black bean sauce",
+        "腊肠",
+        "lap cheong",
+        "瑶柱",
+        "dried scallop",
+        "点心",
+        "dim sum"
+      ]
+    },
+    {
+      "id": "guangdong_teochew",
+      "name": "Teochew",
+      "zh_name": "潮州菜",
+      "province": "Guangdong",
+      "neighbors": [
+        "guangdong_cantonese",
+        "guangdong_hakka"
+      ],
+      "self_labels": [
+        "Teochew",
+        "Chaozhou",
+        "Chiuchow",
+        "Chiu Chow",
+        "潮州",
+        "潮汕",
+        "Chaoshan",
+        "Shantou",
+        "汕头"
+      ],
+      "dishes": [
+        {
+          "en": "Teochew braised goose",
+          "zh": "卤鹅",
+          "zh_alt": [
+            "潮州卤鹅",
+            "狮头鹅"
+          ],
+          "aliases": [
+            "braised goose",
+            "lo soi goose",
+            "teochew goose",
+            "chiu chow goose"
+          ]
+        },
+        {
+          "en": "Teochew master stock dishes",
+          "zh": "潮州卤水",
+          "aliases": [
+            "chiu chow marinated",
+            "teochew braised",
+            "lou sui"
+          ]
+        },
+        {
+          "en": "Mue (Teochew porridge)",
+          "zh": "糜",
+          "zh_alt": [
+            "潮州糜",
+            "白糜"
+          ],
+          "aliases": [
+            "teochew porridge",
+            "teochew congee",
+            "mue"
+          ]
+        },
+        {
+          "en": "Olive vegetable",
+          "zh": "橄榄菜",
+          "aliases": [
+            "olive vegetable",
+            "preserved olive vegetable",
+            "chinese olive greens"
+          ]
+        },
+        {
+          "en": "Oyster pancake",
+          "zh": "蚝烙",
+          "zh_alt": [
+            "蚝仔烙"
+          ],
+          "aliases": [
+            "oyster pancake",
+            "oyster omelette",
+            "oyster omelet",
+            "orh luak"
+          ]
+        },
+        {
+          "en": "Guorou (wrapped meat roll)",
+          "zh": "裹肉",
+          "aliases": [
+            "tofu skin roll",
+            "five spice roll",
+            "guorou"
+          ]
+        }
+      ],
+      "markers": [
+        "菜脯",
+        "pickled daikon",
+        "卤水",
+        "鱼丸",
+        "fishball",
+        "fish ball",
+        "粿"
+      ]
+    },
+    {
+      "id": "guangdong_hakka",
+      "name": "Hakka",
+      "zh_name": "客家菜",
+      "province": "Guangdong",
+      "neighbors": [
+        "guangdong_dongjiang_hakka",
+        "guangdong_teochew"
+      ],
+      "self_labels": [
+        "Hakka",
+        "客家",
+        "Meizhou",
+        "梅州"
+      ],
+      "dishes": [
+        {
+          "en": "Hakka stuffed tofu",
+          "zh": "酿豆腐",
+          "aliases": [
+            "stuffed tofu",
+            "yong tau foo",
+            "yong tofu"
+          ]
+        },
+        {
+          "en": "Hakka 'yan' noodles",
+          "zh": "腌面",
+          "aliases": [
+            "hakka noodles",
+            "hakka mee",
+            "yan noodles"
+          ]
+        },
+        {
+          "en": "Hakka mixed beef",
+          "zh": "腌牛肉",
+          "aliases": [
+            "hakka beef",
+            "yan beef"
+          ]
+        },
+        {
+          "en": "Salt-baked chicken",
+          "zh": "盐焗鸡",
+          "aliases": [
+            "salt baked chicken",
+            "salt-baked chicken",
+            "salt roasted chicken"
+          ]
+        },
+        {
+          "en": "Taro balls / daikon balls",
+          "zh": "芋头丸",
+          "zh_alt": [
+            "萝卜丸"
+          ],
+          "aliases": [
+            "taro balls",
+            "taro ball",
+            "radish balls"
+          ]
+        },
+        {
+          "en": "Faban rice cupcake",
+          "zh": "发粄",
+          "aliases": [
+            "fa ban",
+            "rice cupcake",
+            "hakka rice cake"
+          ]
+        }
+      ],
+      "markers": [
+        "粄",
+        "ban",
+        "红曲",
+        "red yeast rice",
+        "sweet potato starch",
+        "番薯"
+      ]
+    },
+    {
+      "id": "guangdong_dongjiang_hakka",
+      "name": "Dong River Hakka",
+      "zh_name": "东江菜",
+      "province": "Guangdong",
+      "neighbors": [
+        "guangdong_hakka",
+        "guangdong_cantonese"
+      ],
+      "self_labels": [
+        "Dongjiang",
+        "东江",
+        "Huizhou",
+        "惠州"
+      ],
+      "dishes": [
+        {
+          "en": "Dongjiang stuffed tofu",
+          "zh": "东江酿豆腐",
+          "aliases": [
+            "dongjiang stuffed tofu",
+            "dong jiang stuffed tofu"
+          ]
+        },
+        {
+          "en": "Pork belly with preserved mustard greens",
+          "zh": "梅菜扣肉",
+          "aliases": [
+            "mei cai kou rou",
+            "pork belly with preserved vegetable",
+            "preserved vegetable pork belly",
+            "mui choy kau yuk"
+          ]
+        },
+        {
+          "en": "Three cup duck",
+          "zh": "三杯鸭",
+          "zh_alt": [
+            "三杯鸡"
+          ],
+          "aliases": [
+            "three cup duck",
+            "three cup chicken",
+            "san bei ji"
+          ],
+          "weight_override": 0.4
+        }
+      ],
+      "markers": [
+        "梅菜",
+        "mei cai",
+        "扣肉",
+        "kou rou",
+        "三杯"
+      ]
+    },
+    {
+      "id": "guangdong_lianzhou_yao",
+      "name": "Lianzhou (Yao)",
+      "zh_name": "连州菜",
+      "province": "Guangdong",
+      "neighbors": [
+        "guangdong_cantonese",
+        "hunan_xiang"
+      ],
+      "self_labels": [
+        "Lianzhou",
+        "连州",
+        "Yao",
+        "瑶族"
+      ],
+      "dishes": [
+        {
+          "en": "Beef pancake",
+          "zh": "牛肉糍",
+          "aliases": [
+            "beef pancake",
+            "lianzhou beef cake"
+          ]
+        },
+        {
+          "en": "Smoked beef jerky",
+          "zh": "牛肉干",
+          "aliases": [
+            "smoked beef jerky",
+            "beef jerky"
+          ],
+          "weight_override": 0.15
+        },
+        {
+          "en": "Xingzi chili beef noodle soup",
+          "zh": "星子牛肉面",
+          "aliases": [
+            "xingzi beef noodle",
+            "sour spicy beef noodle"
+          ]
+        }
+      ],
+      "markers": [
+        "瑶",
+        "smoked beef"
+      ]
+    },
+    {
+      "id": "coastal_qinlianleiqiong",
+      "name": "Coastal (Qin-Lian-Lei-Qiong)",
+      "zh_name": "钦廉雷琼",
+      "province": "Guangdong/Guangxi/Hainan",
+      "neighbors": [
+        "guangdong_cantonese",
+        "guangxi_yongyu",
+        "hainan_hlai"
+      ],
+      "self_labels": [
+        "Hainan",
+        "海南",
+        "Haikou",
+        "海口",
+        "Zhanjiang",
+        "湛江",
+        "Leizhou",
+        "雷州",
+        "Beihai",
+        "北海"
+      ],
+      "dishes": [
+        {
+          "en": "Hainan chicken rice",
+          "zh": "海南鸡饭",
+          "zh_alt": [
+            "鸡饭",
+            "文昌鸡"
+          ],
+          "aliases": [
+            "hainanese chicken rice",
+            "hainan chicken rice",
+            "chicken rice",
+            "wenchang chicken"
+          ],
+          "weight_override": 0.5
+        },
+        {
+          "en": "Duck rice",
+          "zh": "鸭仔饭",
+          "aliases": [
+            "duck rice",
+            "leizhou duck rice"
+          ]
+        },
+        {
+          "en": "Wet spicy beef skewers",
+          "zh": "湿辣牛肉",
+          "aliases": [
+            "wet spicy beef"
+          ]
+        },
+        {
+          "en": "Seafood rice noodles",
+          "zh": "海鲜捞粉",
+          "aliases": [
+            "seafood hor fun",
+            "seafood rice noodle",
+            "lao fen"
+          ]
+        },
+        {
+          "en": "Beef & wild betel rice cake",
+          "zh": "机粽饼",
+          "aliases": [
+            "wild betel rice cake"
+          ]
+        },
+        {
+          "en": "Layered rice cake",
+          "zh": "簸箕炊",
+          "zh_alt": [
+            "水籺"
+          ],
+          "aliases": [
+            "layered rice cake",
+            "steamed rice cake"
+          ]
+        }
+      ],
+      "markers": [
+        "籺",
+        "沙姜",
+        "sand ginger",
+        "椰子",
+        "coconut",
+        "蛤蒌"
+      ]
+    },
+    {
+      "id": "hainan_hlai",
+      "name": "Hlai",
+      "zh_name": "黎族菜",
+      "province": "Hainan",
+      "neighbors": [
+        "coastal_qinlianleiqiong",
+        "yunnan_puer_xsbn"
+      ],
+      "self_labels": [
+        "Hlai",
+        "Li people",
+        "黎族",
+        "Sanya",
+        "三亚",
+        "Wuzhishan",
+        "五指山"
+      ],
+      "dishes": [
+        {
+          "en": "Long table / leaf banquet",
+          "zh": "长桌宴",
+          "aliases": [
+            "long table banquet",
+            "leaf banquet"
+          ]
+        },
+        {
+          "en": "Stir-fried banana blossom",
+          "zh": "炒芭蕉花",
+          "aliases": [
+            "banana blossom",
+            "banana flower"
+          ]
+        },
+        {
+          "en": "Fermented fish (fish tea)",
+          "zh": "鱼茶",
+          "aliases": [
+            "fermented fish",
+            "fish tea"
+          ]
+        }
+      ],
+      "markers": [
+        "芭蕉花",
+        "棕榈",
+        "palm heart",
+        "血肠",
+        "colored rice"
+      ]
+    },
+    {
+      "id": "guangxi_yongyu",
+      "name": "Yong-Yu River",
+      "zh_name": "邕郁菜",
+      "province": "Guangxi",
+      "neighbors": [
+        "guangdong_cantonese",
+        "guangxi_guibei",
+        "guangxi_zhuang"
+      ],
+      "self_labels": [
+        "Guangxi",
+        "广西",
+        "Nanning",
+        "南宁",
+        "Yulin",
+        "玉林",
+        "Wuzhou",
+        "梧州",
+        "桂菜"
+      ],
+      "dishes": [
+        {
+          "en": "Laoyou ('old buddy') noodles",
+          "zh": "老友粉",
+          "zh_alt": [
+            "老友面"
+          ],
+          "aliases": [
+            "laoyou noodles",
+            "lao you fen",
+            "old friend noodles",
+            "old buddy noodles"
+          ]
+        },
+        {
+          "en": "Lemon duck",
+          "zh": "柠檬鸭",
+          "aliases": [
+            "lemon duck",
+            "nanning lemon duck"
+          ]
+        },
+        {
+          "en": "Paper-wrapped chicken",
+          "zh": "纸包鸡",
+          "aliases": [
+            "paper wrapped chicken",
+            "paper-wrapped chicken"
+          ]
+        },
+        {
+          "en": "Char siu rice noodle soup (Guangxi)",
+          "zh": "叉烧粉",
+          "aliases": [
+            "char siu rice noodle",
+            "bbq pork rice noodle soup"
+          ],
+          "weight_override": 0.4
+        },
+        {
+          "en": "Guangxi-style rice noodle roll",
+          "zh": "广西肠粉",
+          "aliases": [
+            "guangxi cheung fun",
+            "guangxi rice roll"
+          ]
+        },
+        {
+          "en": "Nanning zongzi with kourou",
+          "zh": "南宁粽",
+          "zh_alt": [
+            "扣肉粽"
+          ],
+          "aliases": [
+            "nanning zongzi",
+            "pork belly zongzi"
+          ]
+        }
+      ],
+      "markers": [
+        "酸笋",
+        "sour bamboo shoot",
+        "紫苏",
+        "perilla",
+        "鸡皮果",
+        "米粉",
+        "rice noodle"
+      ]
+    },
+    {
+      "id": "guangxi_guibei",
+      "name": "Guibei",
+      "zh_name": "桂北菜",
+      "province": "Guangxi",
+      "neighbors": [
+        "guangxi_yongyu",
+        "guizhou_south"
+      ],
+      "self_labels": [
+        "Guilin",
+        "桂林",
+        "Liuzhou",
+        "柳州",
+        "Yangshuo",
+        "阳朔",
+        "桂北"
+      ],
+      "dishes": [
+        {
+          "en": "Luosifen snail rice noodles",
+          "zh": "螺蛳粉",
+          "aliases": [
+            "luosifen",
+            "luo si fen",
+            "snail rice noodle",
+            "snail noodle",
+            "river snail rice noodle"
+          ]
+        },
+        {
+          "en": "Guilin rice noodles",
+          "zh": "桂林米粉",
+          "aliases": [
+            "guilin rice noodle",
+            "guilin mifen",
+            "guilin noodle"
+          ]
+        },
+        {
+          "en": "Horse meat rice noodles",
+          "zh": "马肉米粉",
+          "aliases": [
+            "horse meat noodle"
+          ]
+        },
+        {
+          "en": "Beer fish",
+          "zh": "啤酒鱼",
+          "aliases": [
+            "beer fish",
+            "yangshuo beer fish"
+          ]
+        },
+        {
+          "en": "Eight treasure beef",
+          "zh": "牛八宝",
+          "aliases": [
+            "eight treasure beef"
+          ]
+        },
+        {
+          "en": "Sour tripe skewers",
+          "zh": "牛肠酸",
+          "aliases": [
+            "sour tripe"
+          ]
+        }
+      ],
+      "markers": [
+        "酸笋",
+        "sour bamboo shoot",
+        "锅烧",
+        "fermented bamboo",
+        "茶油"
+      ]
+    },
+    {
+      "id": "guangxi_zhuang",
+      "name": "Zhuang Area",
+      "zh_name": "壮族菜",
+      "province": "Guangxi",
+      "neighbors": [
+        "guangxi_yongyu",
+        "yunnan_puer_xsbn"
+      ],
+      "self_labels": [
+        "Zhuang",
+        "壮族",
+        "Hechi",
+        "河池",
+        "Baise",
+        "百色",
+        "Longlin",
+        "隆林"
+      ],
+      "dishes": [
+        {
+          "en": "Five-color sticky rice",
+          "zh": "五色糯米饭",
+          "zh_alt": [
+            "五色饭"
+          ],
+          "aliases": [
+            "five color sticky rice",
+            "five-color rice",
+            "five colour rice"
+          ]
+        },
+        {
+          "en": "Longlin chicken rice noodle soup",
+          "zh": "隆林鸡粉",
+          "aliases": [
+            "longlin chicken noodle"
+          ]
+        },
+        {
+          "en": "Yaba wrapped duck",
+          "zh": "鸭把",
+          "aliases": [
+            "yaba",
+            "duck wrap"
+          ]
+        }
+      ],
+      "markers": [
+        "糯米",
+        "sticky rice",
+        "姜叶"
+      ]
+    },
+    {
+      "id": "guizhou_han",
+      "name": "Han Guizhou",
+      "zh_name": "黔菜",
+      "province": "Guizhou",
+      "neighbors": [
+        "guizhou_south",
+        "sichuan_upper",
+        "yunnan_han"
+      ],
+      "self_labels": [
+        "Guizhou",
+        "贵州",
+        "黔",
+        "Guiyang",
+        "贵阳",
+        "Zunyi",
+        "遵义",
+        "Anshun",
+        "安顺"
+      ],
+      "dishes": [
+        {
+          "en": "Anshun flaky baozi",
+          "zh": "破酥包",
+          "zh_alt": [
+            "安顺破酥包"
+          ],
+          "aliases": [
+            "flaky baozi",
+            "po su bao"
+          ]
+        },
+        {
+          "en": "Guizhou goat rice noodle soup",
+          "zh": "羊肉粉",
+          "zh_alt": [
+            "贵州羊肉粉",
+            "遵义羊肉粉",
+            "水城羊肉粉"
+          ],
+          "aliases": [
+            "goat rice noodle",
+            "lamb rice noodle",
+            "mutton rice noodle",
+            "yang rou fen"
+          ]
+        },
+        {
+          "en": "Douchi hotpot",
+          "zh": "豆豉火锅",
+          "aliases": [
+            "douchi hot pot",
+            "fermented soybean hotpot"
+          ]
+        },
+        {
+          "en": "Fried tangyuan with pickled greens",
+          "zh": "酸菜炒汤圆",
+          "aliases": [
+            "fried tangyuan"
+          ]
+        },
+        {
+          "en": "Si wa wa spring rolls",
+          "zh": "丝娃娃",
+          "aliases": [
+            "si wa wa",
+            "siwawa",
+            "silk baby"
+          ]
+        },
+        {
+          "en": "Guiyang breakfast sticky rice",
+          "zh": "贵阳糯米饭",
+          "aliases": [
+            "guiyang sticky rice"
+          ]
+        }
+      ],
+      "markers": [
+        "脆哨",
+        "cuishao",
+        "折耳根",
+        "fishwort",
+        "houttuynia",
+        "糍粑辣椒",
+        "辣子鸡"
+      ]
+    },
+    {
+      "id": "guizhou_south",
+      "name": "South Guizhou",
+      "zh_name": "黔南/黔东南菜",
+      "province": "Guizhou",
+      "neighbors": [
+        "guizhou_han",
+        "guangxi_guibei",
+        "hunan_west"
+      ],
+      "self_labels": [
+        "Kaili",
+        "凯里",
+        "Miao",
+        "苗族",
+        "Hmong",
+        "Dong people",
+        "侗族",
+        "Dushan",
+        "独山",
+        "黔东南"
+      ],
+      "dishes": [
+        {
+          "en": "Sour soup fish",
+          "zh": "酸汤鱼",
+          "aliases": [
+            "sour soup fish",
+            "red sour soup fish",
+            "fermented tomato fish",
+            "kaili sour soup"
+          ]
+        },
+        {
+          "en": "Sour soup rice noodles",
+          "zh": "酸汤粉",
+          "aliases": [
+            "sour soup rice noodle",
+            "sour soup noodle"
+          ]
+        },
+        {
+          "en": "Fermented shrimp paste beef pot",
+          "zh": "虾酸牛肉",
+          "aliases": [
+            "xiasuan beef",
+            "fermented shrimp beef"
+          ]
+        },
+        {
+          "en": "Niubie herbal beef hotpot",
+          "zh": "牛瘪",
+          "aliases": [
+            "niubie",
+            "niu bie"
+          ]
+        }
+      ],
+      "markers": [
+        "酸汤",
+        "红酸汤",
+        "白酸汤",
+        "虾酸",
+        "木姜子",
+        "mujiangzi"
+      ]
+    },
+    {
+      "id": "yunnan_han",
+      "name": "Han Yunnan",
+      "zh_name": "滇菜",
+      "province": "Yunnan",
+      "neighbors": [
+        "yunnan_hui",
+        "guizhou_han",
+        "sichuan_upper"
+      ],
+      "self_labels": [
+        "Yunnan",
+        "云南",
+        "滇",
+        "Kunming",
+        "昆明",
+        "Mengzi",
+        "蒙自",
+        "South of the Clouds",
+        "云之南",
+        "彩云之南",
+        "Yun Nan"
+      ],
+      "dishes": [
+        {
+          "en": "Crossing the bridge rice noodles",
+          "zh": "过桥米线",
+          "aliases": [
+            "crossing the bridge noodle",
+            "crossing bridge noodle",
+            "cross bridge noodle",
+            "over the bridge noodle",
+            "guoqiao mixian",
+            "guo qiao mi xian"
+          ]
+        },
+        {
+          "en": "Little pot rice noodles",
+          "zh": "小锅米线",
+          "aliases": [
+            "little pot rice noodle",
+            "small pot rice noodle",
+            "xiaoguo mixian"
+          ]
+        },
+        {
+          "en": "Grandma's mashed potatoes",
+          "zh": "老奶洋芋",
+          "aliases": [
+            "grandma potato",
+            "grandma's potatoes",
+            "grandmother potato",
+            "lao nai yang yu"
+          ]
+        },
+        {
+          "en": "Shao er kuai grilled rice cake",
+          "zh": "烧饵块",
+          "zh_alt": [
+            "饵块",
+            "炒饵块"
+          ],
+          "aliases": [
+            "er kuai",
+            "erkuai",
+            "shao er kuai",
+            "yunnan rice cake"
+          ]
+        },
+        {
+          "en": "Wandoufen pea jelly",
+          "zh": "豌豆粉",
+          "aliases": [
+            "pea jelly",
+            "pea flour jelly",
+            "wandoufen",
+            "wan dou fen"
+          ]
+        },
+        {
+          "en": "Fresh-fried chicken with fried mint",
+          "zh": "生炸鸡",
+          "aliases": [
+            "fried chicken with mint",
+            "mint fried chicken"
+          ]
+        }
+      ],
+      "markers": [
+        "米线",
+        "mixian",
+        "mi xian",
+        "酸腌菜",
+        "昭通酱",
+        "zhaotong",
+        "宣威火腿",
+        "xuanwei ham",
+        "云腿",
+        "野生菌",
+        "wild mushroom",
+        "鸡枞",
+        "牛肝菌",
+        "porcini",
+        "汽锅鸡",
+        "steam pot chicken",
+        "steampot chicken"
+      ]
+    },
+    {
+      "id": "yunnan_hui",
+      "name": "Hui Yunnan",
+      "zh_name": "云南回族菜",
+      "province": "Yunnan",
+      "neighbors": [
+        "yunnan_han",
+        "yunnan_west"
+      ],
+      "self_labels": [
+        "Hui",
+        "回族",
+        "清真",
+        "halal",
+        "Yunnan Muslim",
+        "Shadian",
+        "沙甸"
+      ],
+      "dishes": [
+        {
+          "en": "Niuganba beef jerky",
+          "zh": "牛干巴",
+          "aliases": [
+            "niu gan ba",
+            "niuganba",
+            "yunnan beef jerky",
+            "dried beef"
+          ]
+        },
+        {
+          "en": "Goat soup pot",
+          "zh": "羊汤锅",
+          "aliases": [
+            "goat soup",
+            "goat hotpot",
+            "lamb soup pot"
+          ]
+        },
+        {
+          "en": "'Big crisp' beef noodle soup",
+          "zh": "大酥牛肉面",
+          "zh_alt": [
+            "大酥牛肉"
+          ],
+          "aliases": [
+            "big crisp beef",
+            "da su beef noodle"
+          ]
+        }
+      ],
+      "markers": [
+        "清真",
+        "halal",
+        "草果",
+        "tsaoko",
+        "black cardamom",
+        "tangchi",
+        "薄荷",
+        "mint"
+      ]
+    },
+    {
+      "id": "yunnan_west",
+      "name": "West Yunnan",
+      "zh_name": "滇西菜",
+      "province": "Yunnan",
+      "neighbors": [
+        "yunnan_puer_xsbn",
+        "yunnan_dali",
+        "yunnan_hui"
+      ],
+      "self_labels": [
+        "Dehong",
+        "德宏",
+        "Tengchong",
+        "腾冲",
+        "Baoshan",
+        "保山",
+        "Ruili",
+        "瑞丽",
+        "Lincang",
+        "临沧",
+        "滇西"
+      ],
+      "dishes": [
+        {
+          "en": "Wa people shouzhuafan",
+          "zh": "佤族手抓饭",
+          "aliases": [
+            "wa hand rice",
+            "wa leaf banquet"
+          ]
+        },
+        {
+          "en": "Yunnan-style tea leaf salad",
+          "zh": "茶叶豆",
+          "zh_alt": [
+            "凉拌茶叶",
+            "腌茶"
+          ],
+          "aliases": [
+            "tea leaf salad",
+            "lahpet",
+            "laphet",
+            "fermented tea leaf"
+          ]
+        },
+        {
+          "en": "Achang crossing-the-hand rice noodles",
+          "zh": "过手米线",
+          "aliases": [
+            "crossing the hand noodle",
+            "guoshou mixian",
+            "hand rice noodle"
+          ]
+        },
+        {
+          "en": "Xidoufen pea porridge",
+          "zh": "稀豆粉",
+          "aliases": [
+            "xidoufen",
+            "xi dou fen",
+            "pea porridge",
+            "split pea porridge",
+            "pea flour porridge"
+          ]
+        },
+        {
+          "en": "Fried banana blossom",
+          "zh": "炒芭蕉花",
+          "aliases": [
+            "banana blossom",
+            "banana flower"
+          ]
+        },
+        {
+          "en": "Sour vegetable soup",
+          "zh": "酸扒菜",
+          "aliases": [
+            "sour vegetable soup",
+            "sour bean stew"
+          ]
+        }
+      ],
+      "markers": [
+        "豆豉粑",
+        "fermented soybean cake",
+        "thua nao",
+        "芭蕉花",
+        "酸笋",
+        "红米线",
+        "red rice noodle"
+      ]
+    },
+    {
+      "id": "yunnan_puer_xsbn",
+      "name": "Pu'er-Sipsongpanna (Dai)",
+      "zh_name": "傣味",
+      "province": "Yunnan",
+      "neighbors": [
+        "yunnan_west",
+        "yunnan_honghe",
+        "guangxi_zhuang"
+      ],
+      "self_labels": [
+        "Dai",
+        "傣",
+        "傣味",
+        "傣家",
+        "Xishuangbanna",
+        "西双版纳",
+        "版纳",
+        "Sipsongpanna",
+        "Pu'er",
+        "普洱"
+      ],
+      "dishes": [
+        {
+          "en": "Dai-style cold salads",
+          "zh": "傣味凉拌",
+          "zh_alt": [
+            "凉拌鸡脚",
+            "傣味鸡脚",
+            "柠檬鸡脚"
+          ],
+          "aliases": [
+            "dai style salad",
+            "dai salad",
+            "lime chicken feet",
+            "chicken feet salad"
+          ]
+        },
+        {
+          "en": "Baoshao leaf-grilled meat",
+          "zh": "包烧",
+          "zh_alt": [
+            "包烧肉",
+            "包烧鱼"
+          ],
+          "aliases": [
+            "baoshao",
+            "bao shao",
+            "leaf wrapped grilled",
+            "banana leaf grilled"
+          ]
+        },
+        {
+          "en": "Sa dip / sapie",
+          "zh": "撒撇",
+          "zh_alt": [
+            "撒"
+          ],
+          "aliases": [
+            "sapie",
+            "sa pie",
+            "sa dip",
+            "lemon beef sa"
+          ]
+        }
+      ],
+      "markers": [
+        "傣",
+        "香茅",
+        "lemongrass",
+        "刺芫荽",
+        "culantro",
+        "香柳",
+        "laksa leaf",
+        "柠檬",
+        "lime",
+        "芭蕉叶",
+        "banana leaf"
+      ]
+    },
+    {
+      "id": "yunnan_honghe",
+      "name": "Honghe",
+      "zh_name": "红河菜",
+      "province": "Yunnan",
+      "neighbors": [
+        "yunnan_puer_xsbn",
+        "yunnan_han"
+      ],
+      "self_labels": [
+        "Honghe",
+        "红河",
+        "Hani",
+        "哈尼",
+        "Yuanyang",
+        "元阳",
+        "Jianshui",
+        "建水"
+      ],
+      "dishes": [
+        {
+          "en": "Hani grilled fish",
+          "zh": "哈尼烤鱼",
+          "aliases": [
+            "hani grilled fish",
+            "rice terrace fish"
+          ]
+        },
+        {
+          "en": "Dipping sauce chicken",
+          "zh": "蘸水鸡",
+          "aliases": [
+            "dipping sauce chicken"
+          ]
+        },
+        {
+          "en": "Peanut milk soup",
+          "zh": "花生汤",
+          "aliases": [
+            "peanut soup",
+            "peanut milk soup"
+          ]
+        }
+      ],
+      "markers": [
+        "蘸水",
+        "dipping sauce",
+        "建水豆腐",
+        "jianshui tofu",
+        "梯田"
+      ]
+    },
+    {
+      "id": "yunnan_dali",
+      "name": "Dali",
+      "zh_name": "大理菜",
+      "province": "Yunnan",
+      "neighbors": [
+        "yunnan_west",
+        "tibetan",
+        "yunnan_han"
+      ],
+      "self_labels": [
+        "Dali",
+        "大理",
+        "Lijiang",
+        "丽江",
+        "Bai",
+        "白族",
+        "Naxi",
+        "纳西",
+        "Erhai",
+        "洱海"
+      ],
+      "dishes": [
+        {
+          "en": "Rubing goat cheese",
+          "zh": "乳饼",
+          "aliases": [
+            "rubing",
+            "ru bing",
+            "goat cheese",
+            "yunnan goat cheese",
+            "pan fried goat cheese"
+          ]
+        },
+        {
+          "en": "Lentil liangfen",
+          "zh": "鸡豆粉",
+          "zh_alt": [
+            "鸡豆凉粉"
+          ],
+          "aliases": [
+            "lentil jelly",
+            "lentil liangfen",
+            "chickpea jelly"
+          ]
+        },
+        {
+          "en": "Chinese quince sour fish",
+          "zh": "酸木瓜鱼",
+          "zh_alt": [
+            "木瓜鱼",
+            "酸辣鱼"
+          ],
+          "aliases": [
+            "quince fish",
+            "sour papaya fish",
+            "chinese quince fish",
+            "erhai fish"
+          ]
+        }
+      ],
+      "markers": [
+        "酸木瓜",
+        "chinese quince",
+        "乳扇",
+        "rushan",
+        "洱海",
+        "宣威火腿"
+      ]
+    },
+    {
+      "id": "tibetan",
+      "name": "Tibetan Plateau",
+      "zh_name": "藏餐",
+      "province": "Tibet/W. Sichuan/NW Yunnan/Qinghai",
+      "neighbors": [
+        "yunnan_dali",
+        "sichuan_yi"
+      ],
+      "self_labels": [
+        "Tibetan",
+        "Tibet",
+        "西藏",
+        "藏",
+        "藏式",
+        "Himalayan",
+        "Lhasa",
+        "拉萨",
+        "Shangri-La",
+        "香格里拉"
+      ],
+      "dishes": [
+        {
+          "en": "Tsampa",
+          "zh": "糌粑",
+          "aliases": [
+            "tsampa"
+          ]
+        },
+        {
+          "en": "Gyuma blood sausage",
+          "zh": "血肠",
+          "zh_alt": [
+            "藏式血肠"
+          ],
+          "aliases": [
+            "gyuma",
+            "blood sausage"
+          ],
+          "weight_override": 0.4
+        },
+        {
+          "en": "Momo",
+          "zh": "馍馍",
+          "zh_alt": [
+            "藏式馍馍"
+          ],
+          "aliases": [
+            "momo",
+            "momos",
+            "tibetan dumpling"
+          ]
+        },
+        {
+          "en": "Butter tea",
+          "zh": "酥油茶",
+          "aliases": [
+            "butter tea",
+            "po cha",
+            "bod ja"
+          ]
+        }
+      ],
+      "markers": [
+        "牦牛",
+        "yak",
+        "酥油",
+        "青稞",
+        "barley",
+        "thenthuk",
+        "shapale",
+        "藏"
+      ]
+    },
+    {
+      "id": "sichuan_upper",
+      "name": "Upper River Gang (Chengdu)",
+      "zh_name": "上河帮",
+      "province": "Sichuan",
+      "neighbors": [
+        "sichuan_lower",
+        "sichuan_salt",
+        "guizhou_han"
+      ],
+      "self_labels": [
+        "Sichuan",
+        "Szechuan",
+        "四川",
+        "川菜",
+        "川",
+        "Chengdu",
+        "成都",
+        "Leshan",
+        "乐山",
+        "蜀"
+      ],
+      "dishes": [
+        {
+          "en": "Kung pao chicken",
+          "zh": "宫保鸡丁",
+          "aliases": [
+            "kung pao chicken",
+            "kung po chicken",
+            "gong bao chicken"
+          ],
+          "weight_override": 0.1
+        },
+        {
+          "en": "Chili oil wontons",
+          "zh": "红油抄手",
+          "zh_alt": [
+            "红汤抄手",
+            "抄手"
+          ],
+          "aliases": [
+            "chili oil wonton",
+            "wontons in chili oil",
+            "red oil wonton",
+            "chao shou"
+          ],
+          "weight_override": 0.3
+        },
+        {
+          "en": "Twice cooked pork",
+          "zh": "回锅肉",
+          "aliases": [
+            "twice cooked pork",
+            "double cooked pork"
+          ],
+          "weight_override": 0.3
+        },
+        {
+          "en": "Mapo tofu",
+          "zh": "麻婆豆腐",
+          "aliases": [
+            "mapo tofu",
+            "ma po tofu",
+            "mabo tofu"
+          ],
+          "weight_override": 0.15
+        },
+        {
+          "en": "Leshan MSG noodles",
+          "zh": "味精素面",
+          "aliases": [
+            "msg noodles",
+            "leshan noodles"
+          ]
+        },
+        {
+          "en": "Zhangcha tea-smoked duck",
+          "zh": "樟茶鸭",
+          "aliases": [
+            "tea smoked duck",
+            "camphor tea duck",
+            "zhangcha duck"
+          ]
+        }
+      ],
+      "markers": [
+        "郫县豆瓣",
+        "doubanjiang",
+        "花椒",
+        "sichuan peppercorn",
+        "芽菜",
+        "yacai",
+        "红油",
+        "chili oil",
+        "钵钵鸡",
+        "夫妻肺片",
+        "担担面",
+        "dan dan"
+      ]
+    },
+    {
+      "id": "sichuan_lower",
+      "name": "Lower River Gang (Chongqing)",
+      "zh_name": "下河帮",
+      "province": "Chongqing",
+      "neighbors": [
+        "sichuan_upper",
+        "sichuan_salt",
+        "hubei"
+      ],
+      "self_labels": [
+        "Chongqing",
+        "重庆",
+        "渝",
+        "Wanzhou",
+        "万州",
+        "江湖菜"
+      ],
+      "dishes": [
+        {
+          "en": "Wanzhou grilled fish",
+          "zh": "万州烤鱼",
+          "zh_alt": [
+            "重庆烤鱼"
+          ],
+          "aliases": [
+            "wanzhou grilled fish",
+            "chongqing grilled fish",
+            "spicy grilled fish"
+          ]
+        },
+        {
+          "en": "Maoxuewang",
+          "zh": "毛血旺",
+          "aliases": [
+            "mao xue wang",
+            "maoxuewang",
+            "duck blood and tripe"
+          ]
+        },
+        {
+          "en": "Chongqing hotpot",
+          "zh": "重庆火锅",
+          "zh_alt": [
+            "麻辣火锅"
+          ],
+          "aliases": [
+            "chongqing hot pot",
+            "chongqing hotpot",
+            "spicy hotpot"
+          ],
+          "weight_override": 0.3
+        }
+      ],
+      "markers": [
+        "毛肚",
+        "tripe",
+        "麻辣",
+        "mala",
+        "小面",
+        "辣子鸡",
+        "牛油"
+      ]
+    },
+    {
+      "id": "sichuan_salt",
+      "name": "Salt Gang (Zigong)",
+      "zh_name": "盐帮菜",
+      "province": "Sichuan",
+      "neighbors": [
+        "sichuan_upper",
+        "sichuan_lower"
+      ],
+      "self_labels": [
+        "Zigong",
+        "自贡",
+        "盐帮",
+        "Yibin",
+        "宜宾",
+        "Luzhou",
+        "泸州",
+        "Neijiang",
+        "内江"
+      ],
+      "dishes": [
+        {
+          "en": "Tofu pudding rice",
+          "zh": "豆花饭",
+          "aliases": [
+            "douhua rice",
+            "tofu pudding rice",
+            "tofu flower rice"
+          ]
+        },
+        {
+          "en": "'Cold eaten' beef",
+          "zh": "冷吃牛肉",
+          "zh_alt": [
+            "冷吃兔"
+          ],
+          "aliases": [
+            "cold eaten beef",
+            "leng chi beef",
+            "cold eaten rabbit"
+          ]
+        },
+        {
+          "en": "Yibin burning noodles",
+          "zh": "燃面",
+          "zh_alt": [
+            "宜宾燃面"
+          ],
+          "aliases": [
+            "burning noodles",
+            "ran mian",
+            "yibin noodle"
+          ]
+        },
+        {
+          "en": "Shuizhu beef",
+          "zh": "水煮牛肉",
+          "aliases": [
+            "boiled beef",
+            "water boiled beef",
+            "shui zhu beef",
+            "poached beef in chili"
+          ],
+          "weight_override": 0.3
+        },
+        {
+          "en": "Fresh chili rabbit",
+          "zh": "鲜椒兔",
+          "aliases": [
+            "fresh pepper rabbit",
+            "chili rabbit"
+          ]
+        },
+        {
+          "en": "Crispy pork soup",
+          "zh": "酥肉汤",
+          "zh_alt": [
+            "酥肉"
+          ],
+          "aliases": [
+            "crispy pork soup",
+            "su rou"
+          ]
+        }
+      ],
+      "markers": [
+        "兔",
+        "rabbit",
+        "鲜椒",
+        "盐帮",
+        "木姜子"
+      ]
+    },
+    {
+      "id": "sichuan_yi",
+      "name": "Yi Sichuan",
+      "zh_name": "彝族菜",
+      "province": "Sichuan (Liangshan)",
+      "neighbors": [
+        "yunnan_han",
+        "tibetan",
+        "sichuan_upper"
+      ],
+      "self_labels": [
+        "Yi",
+        "彝族",
+        "彝",
+        "Liangshan",
+        "凉山",
+        "Xichang",
+        "西昌"
+      ],
+      "dishes": [
+        {
+          "en": "Tuotuorou chunky meat",
+          "zh": "坨坨肉",
+          "aliases": [
+            "tuotuo rou",
+            "chunky meat"
+          ]
+        },
+        {
+          "en": "Bitter buckwheat pancake",
+          "zh": "苦荞粑粑",
+          "aliases": [
+            "buckwheat pancake",
+            "tartary buckwheat"
+          ]
+        },
+        {
+          "en": "Yi-style barbecue",
+          "zh": "彝族烧烤",
+          "zh_alt": [
+            "西昌烧烤"
+          ],
+          "aliases": [
+            "xichang bbq",
+            "yi bbq"
+          ]
+        }
+      ],
+      "markers": [
+        "苦荞",
+        "buckwheat",
+        "木姜子",
+        "mujiangzi",
+        "彝"
+      ]
+    },
+    {
+      "id": "hubei",
+      "name": "Hubei",
+      "zh_name": "鄂菜",
+      "province": "Hubei",
+      "neighbors": [
+        "hunan_xiang",
+        "sichuan_lower",
+        "jiangxi"
+      ],
+      "self_labels": [
+        "Hubei",
+        "湖北",
+        "鄂",
+        "Wuhan",
+        "武汉",
+        "Jingzhou",
+        "荆州",
+        "Xiangyang",
+        "襄阳"
+      ],
+      "dishes": [
+        {
+          "en": "Hot dry noodles",
+          "zh": "热干面",
+          "aliases": [
+            "hot dry noodle",
+            "re gan mian",
+            "wuhan noodle"
+          ]
+        },
+        {
+          "en": "Three-delicacies doupi",
+          "zh": "三鲜豆皮",
+          "zh_alt": [
+            "豆皮"
+          ],
+          "aliases": [
+            "doupi",
+            "dou pi",
+            "wuhan doupi"
+          ]
+        },
+        {
+          "en": "Hubei fish cake",
+          "zh": "鱼糕",
+          "aliases": [
+            "fish cake",
+            "hubei fish cake"
+          ],
+          "weight_override": 0.4
+        },
+        {
+          "en": "Xiangyang beef noodles",
+          "zh": "襄阳牛肉面",
+          "zh_alt": [
+            "牛油面"
+          ],
+          "aliases": [
+            "xiangyang beef noodle"
+          ]
+        },
+        {
+          "en": "Three steams of Mianyang / pearl meatballs",
+          "zh": "沔阳三蒸",
+          "zh_alt": [
+            "珍珠丸子"
+          ],
+          "aliases": [
+            "pearl meatballs",
+            "pearl balls",
+            "mianyang steamed"
+          ]
+        },
+        {
+          "en": "Dry-fried lotus root",
+          "zh": "干煸藕丝",
+          "aliases": [
+            "fried lotus root",
+            "crispy lotus root"
+          ]
+        },
+        {
+          "en": "Lotus root & pork rib soup",
+          "zh": "莲藕排骨汤",
+          "zh_alt": [
+            "排骨藕汤"
+          ],
+          "aliases": [
+            "lotus root soup",
+            "lotus root rib soup"
+          ]
+        },
+        {
+          "en": "Jingzhou guokui",
+          "zh": "荆州锅盔",
+          "aliases": [
+            "guokui",
+            "guo kui"
+          ]
+        }
+      ],
+      "markers": [
+        "莲藕",
+        "lotus root",
+        "武昌鱼",
+        "鸭脖",
+        "duck neck"
+      ]
+    },
+    {
+      "id": "hunan_xiang",
+      "name": "Xiang (Hunan)",
+      "zh_name": "湘菜",
+      "province": "Hunan",
+      "neighbors": [
+        "hunan_west",
+        "jiangxi",
+        "hubei"
+      ],
+      "self_labels": [
+        "Hunan",
+        "湖南",
+        "湘",
+        "湘菜",
+        "Changsha",
+        "长沙",
+        "Hengyang",
+        "衡阳",
+        "Changde",
+        "常德"
+      ],
+      "dishes": [
+        {
+          "en": "Hunan red-braised pork",
+          "zh": "毛氏红烧肉",
+          "zh_alt": [
+            "红烧肉"
+          ],
+          "aliases": [
+            "mao's red braised pork",
+            "chairman mao pork",
+            "red braised pork",
+            "hong shao rou"
+          ],
+          "weight_override": 0.4
+        },
+        {
+          "en": "Chili fried pork",
+          "zh": "辣椒炒肉",
+          "zh_alt": [
+            "小炒肉",
+            "农家小炒肉"
+          ],
+          "aliases": [
+            "farmer's pork",
+            "farmhouse pork",
+            "hunan pork",
+            "chili fried pork",
+            "pork with chili"
+          ]
+        },
+        {
+          "en": "Smoked bamboo shoots with bacon",
+          "zh": "烟笋炒腊肉",
+          "aliases": [
+            "smoked bamboo shoot",
+            "smoked pork with bamboo"
+          ]
+        },
+        {
+          "en": "Golden coin eggs",
+          "zh": "金钱蛋",
+          "aliases": [
+            "golden coin egg",
+            "money egg"
+          ]
+        },
+        {
+          "en": "Tea seed oil chicken",
+          "zh": "茶油鸡",
+          "aliases": [
+            "tea oil chicken",
+            "camellia oil chicken"
+          ]
+        },
+        {
+          "en": "Fish rice noodle soup",
+          "zh": "鱼粉",
+          "zh_alt": [
+            "衡阳鱼粉"
+          ],
+          "aliases": [
+            "fish rice noodle",
+            "hengyang fish noodle"
+          ]
+        },
+        {
+          "en": "Changde beef rice noodles",
+          "zh": "常德牛肉粉",
+          "aliases": [
+            "changde rice noodle",
+            "changde beef noodle"
+          ]
+        }
+      ],
+      "markers": [
+        "剁椒",
+        "chopped chili",
+        "腊肉",
+        "smoked pork",
+        "cured pork",
+        "豆豉",
+        "剁椒鱼头",
+        "fish head",
+        "湖南"
+      ]
+    },
+    {
+      "id": "hunan_west",
+      "name": "Hunan West",
+      "zh_name": "湘西菜",
+      "province": "Hunan",
+      "neighbors": [
+        "hunan_xiang",
+        "guizhou_south"
+      ],
+      "self_labels": [
+        "Xiangxi",
+        "湘西",
+        "Zhangjiajie",
+        "张家界",
+        "Fenghuang",
+        "凤凰",
+        "Tujia",
+        "土家",
+        "Enshi",
+        "恩施",
+        "Huaihua",
+        "怀化"
+      ],
+      "dishes": [
+        {
+          "en": "Blood duck",
+          "zh": "血鸭",
+          "aliases": [
+            "blood duck"
+          ]
+        },
+        {
+          "en": "Pounded chili dip",
+          "zh": "擂辣椒",
+          "aliases": [
+            "pounded chili",
+            "smashed chili"
+          ]
+        },
+        {
+          "en": "Guoba sandwich",
+          "zh": "湘西锅巴",
+          "aliases": [
+            "guoba sandwich",
+            "crispy rice sandwich"
+          ]
+        },
+        {
+          "en": "Mungbean noodles",
+          "zh": "锅巴粉",
+          "aliases": [
+            "mungbean noodle",
+            "mung bean noodle"
+          ]
+        },
+        {
+          "en": "Fried bee larvae",
+          "zh": "炒蜂蛹",
+          "zh_alt": [
+            "蜂蛹"
+          ],
+          "aliases": [
+            "bee larvae",
+            "bee pupae"
+          ]
+        },
+        {
+          "en": "Zhijiang sour radish snack",
+          "zh": "芷江酸萝卜",
+          "zh_alt": [
+            "酸萝卜"
+          ],
+          "aliases": [
+            "sour radish",
+            "pickled radish snack"
+          ]
+        }
+      ],
+      "markers": [
+        "酸",
+        "腊肉",
+        "土家",
+        "苗"
+      ]
+    },
+    {
+      "id": "jiangxi",
+      "name": "Jiangxi",
+      "zh_name": "赣菜",
+      "province": "Jiangxi",
+      "neighbors": [
+        "hunan_xiang",
+        "hubei",
+        "jiangxi_northeast"
+      ],
+      "self_labels": [
+        "Jiangxi",
+        "江西",
+        "赣",
+        "Nanchang",
+        "南昌"
+      ],
+      "dishes": [
+        {
+          "en": "Spicy chicken feet",
+          "zh": "辣鸡爪",
+          "aliases": [
+            "spicy chicken feet"
+          ],
+          "weight_override": 0.3
+        },
+        {
+          "en": "Jiangxi fried rice noodles",
+          "zh": "江西炒米粉",
+          "zh_alt": [
+            "南昌炒粉",
+            "南昌拌粉"
+          ],
+          "aliases": [
+            "jiangxi rice noodle",
+            "nanchang rice noodle",
+            "jiangxi fried rice noodles"
+          ]
+        },
+        {
+          "en": "Clay jar soups",
+          "zh": "瓦罐煨汤",
+          "zh_alt": [
+            "瓦罐汤"
+          ],
+          "aliases": [
+            "clay jar soup",
+            "clay pot soup",
+            "wa guan tang"
+          ]
+        }
+      ],
+      "markers": [
+        "米粉",
+        "rice noodle",
+        "瓦罐",
+        "辣"
+      ]
+    },
+    {
+      "id": "jiangxi_northeast",
+      "name": "Northeast Jiangxi Mountains",
+      "zh_name": "赣东北菜",
+      "province": "Jiangxi",
+      "neighbors": [
+        "jiangxi"
+      ],
+      "self_labels": [
+        "Jingdezhen",
+        "景德镇",
+        "Wuyuan",
+        "婺源",
+        "Shangrao",
+        "上饶",
+        "赣东北"
+      ],
+      "dishes": [
+        {
+          "en": "Qigao steamed rice pancake",
+          "zh": "汽糕",
+          "aliases": [
+            "qigao",
+            "steamed rice pancake"
+          ]
+        },
+        {
+          "en": "Dengzhanguo lantern cake",
+          "zh": "灯盏粿",
+          "aliases": [
+            "dengzhanguo",
+            "lantern cake"
+          ]
+        },
+        {
+          "en": "Acorn tofu",
+          "zh": "苦槠豆腐",
+          "aliases": [
+            "acorn tofu",
+            "acorn jelly"
+          ]
+        }
+      ],
+      "markers": [
+        "粿",
+        "笋干",
+        "dried bamboo shoot"
+      ]
+    },
+    {
+      "id": "pan_chinese",
+      "name": "Pan-Chinese (mixed regional)",
+      "zh_name": "综合中餐",
+      "province": null,
+      "neighbors": [
+        "sichuan_upper",
+        "guangdong_cantonese",
+        "american_chinese"
+      ],
+      "self_labels": [],
+      "notes": "Not in the article. The standardized Sichuan+Cantonese mix most Chinese restaurants abroad run.",
+      "dishes": [
+        {
+          "en": "Yuxiang shredded pork",
+          "zh": "鱼香肉丝",
+          "aliases": [
+            "fish fragrant pork",
+            "yu xiang pork",
+            "pork with garlic sauce",
+            "shredded pork in garlic sauce"
+          ],
+          "weight_override": 0.4
+        },
+        {
+          "en": "Dry-fried green beans",
+          "zh": "干煸四季豆",
+          "aliases": [
+            "dry fried string beans",
+            "dry sauteed string beans",
+            "dry fried green beans"
+          ],
+          "weight_override": 0.4
+        },
+        {
+          "en": "Hot and sour soup",
+          "zh": "酸辣汤",
+          "aliases": [
+            "hot and sour soup",
+            "hot & sour soup"
+          ],
+          "weight_override": 0.4
+        },
+        {
+          "en": "Yangzhou fried rice",
+          "zh": "扬州炒饭",
+          "aliases": [
+            "yangzhou fried rice",
+            "young chow fried rice",
+            "house special fried rice"
+          ],
+          "weight_override": 0.4
+        },
+        {
+          "en": "Sweet and sour ribs",
+          "zh": "糖醋排骨",
+          "aliases": [
+            "sweet and sour spare ribs",
+            "sweet and sour ribs"
+          ],
+          "weight_override": 0.4
+        },
+        {
+          "en": "Stir-fried pea shoots",
+          "zh": "清炒豆苗",
+          "aliases": [
+            "pea shoots",
+            "sauteed pea shoots",
+            "pea leaves"
+          ],
+          "weight_override": 0.4
+        },
+        {
+          "en": "Mala dry pot",
+          "zh": "麻辣香锅",
+          "aliases": [
+            "mala xiang guo",
+            "dry pot",
+            "spicy dry pot"
+          ],
+          "weight_override": 0.4
+        },
+        {
+          "en": "Scallion pancake",
+          "zh": "葱油饼",
+          "aliases": [
+            "scallion pancake",
+            "green onion pancake"
+          ],
+          "weight_override": 0.4
+        }
+      ],
+      "markers": []
+    },
+    {
+      "id": "american_chinese",
+      "name": "American Chinese",
+      "zh_name": "美式中餐",
+      "province": null,
+      "neighbors": [
+        "pan_chinese"
+      ],
+      "self_labels": [],
+      "notes": "Not in the article. Takeout canon.",
+      "dishes": [
+        {
+          "en": "General Tso's chicken",
+          "zh": "左宗棠鸡",
+          "aliases": [
+            "general tso",
+            "general tso's chicken",
+            "general tsao",
+            "general gau"
+          ],
+          "weight_override": 0.6
+        },
+        {
+          "en": "Sesame chicken",
+          "zh": "芝麻鸡",
+          "aliases": [
+            "sesame chicken"
+          ],
+          "weight_override": 0.6
+        },
+        {
+          "en": "Orange chicken",
+          "zh": "陈皮鸡",
+          "aliases": [
+            "orange chicken",
+            "orange flavored chicken"
+          ],
+          "weight_override": 0.5
+        },
+        {
+          "en": "Crab rangoon",
+          "zh": "蟹角",
+          "aliases": [
+            "crab rangoon",
+            "cheese wonton",
+            "crab cheese wonton"
+          ],
+          "weight_override": 0.6
+        },
+        {
+          "en": "Egg roll",
+          "zh": "蛋卷",
+          "aliases": [
+            "egg roll",
+            "egg rolls"
+          ],
+          "weight_override": 0.4
+        },
+        {
+          "en": "Beef with broccoli",
+          "zh": "芥兰牛",
+          "zh_alt": [
+            "西兰花牛肉"
+          ],
+          "aliases": [
+            "beef with broccoli",
+            "beef and broccoli",
+            "broccoli beef"
+          ],
+          "weight_override": 0.4
+        },
+        {
+          "en": "Egg foo young",
+          "zh": "芙蓉蛋",
+          "aliases": [
+            "egg foo young",
+            "egg foo yung",
+            "egg fu young"
+          ],
+          "weight_override": 0.6
+        },
+        {
+          "en": "Chop suey",
+          "zh": "杂碎",
+          "aliases": [
+            "chop suey"
+          ],
+          "weight_override": 0.6
+        },
+        {
+          "en": "Moo shu pork",
+          "zh": "木须肉",
+          "aliases": [
+            "moo shu",
+            "mu shu",
+            "moo shi"
+          ],
+          "weight_override": 0.3
+        },
+        {
+          "en": "Lo mein",
+          "zh": "捞面",
+          "aliases": [
+            "lo mein"
+          ],
+          "weight_override": 0.4
+        },
+        {
+          "en": "Pu pu platter",
+          "zh": null,
+          "aliases": [
+            "pu pu platter",
+            "pupu platter"
+          ],
+          "weight_override": 0.6
+        },
+        {
+          "en": "Sweet and sour chicken",
+          "zh": "甜酸鸡",
+          "aliases": [
+            "sweet and sour chicken",
+            "sweet & sour chicken"
+          ],
+          "weight_override": 0.5
+        }
+      ],
+      "markers": [
+        "combination platter",
+        "lunch special",
+        "with white rice",
+        "quart",
+        "pint",
+        "fortune cookie"
+      ]
+    },
+    {
+      "id": "fujian_minnan",
+      "name": "Minnan",
+      "zh_name": "闽南菜",
+      "province": "fujian",
+      "neighbors": [],
+      "self_labels": [
+        "Minnan",
+        "闽南",
+        "Hokkien",
+        "Xiamen",
+        "厦门",
+        "Quanzhou",
+        "泉州",
+        "Zhangzhou",
+        "漳州"
+      ],
+      "dishes": [
+        {
+          "en": "Xianfan savory rice",
+          "zh": "咸饭",
+          "aliases": [
+            "xian fan",
+            "savory rice"
+          ]
+        },
+        {
+          "en": "Shacha noodles",
+          "zh": "沙茶面",
+          "aliases": [
+            "shacha noodle",
+            "sha cha noodle",
+            "satay noodle"
+          ]
+        },
+        {
+          "en": "Quanzhou curry beef ribs",
+          "zh": "咖喱牛排",
+          "aliases": [
+            "curry beef rib"
+          ]
+        },
+        {
+          "en": "Mianxianhu",
+          "zh": "面线糊",
+          "aliases": [
+            "mian xian hu",
+            "vermicelli porridge"
+          ]
+        },
+        {
+          "en": "Minnan oyster pancake",
+          "zh": "海蛎煎",
+          "aliases": [
+            "oyster pancake",
+            "oyster omelette",
+            "hai li jian"
+          ]
+        },
+        {
+          "en": "Thick beef soup",
+          "zh": "牛肉羹",
+          "aliases": [
+            "beef geng",
+            "thick beef soup",
+            "beef potage"
+          ]
+        }
+      ],
+      "markers": [
+        "沙茶",
+        "shacha",
+        "sha cha",
+        "甜辣酱",
+        "土笋冻",
+        "姜母鸭"
+      ]
+    },
+    {
+      "id": "fujian_minbei",
+      "name": "Minbei (Fuzhou)",
+      "zh_name": "福州菜",
+      "province": "fujian",
+      "neighbors": [],
+      "self_labels": [
+        "Fuzhou",
+        "福州",
+        "Foochow",
+        "闽菜",
+        "Fujian",
+        "福建",
+        "Minbei",
+        "闽北",
+        "Changle",
+        "长乐",
+        "Fuqing",
+        "福清"
+      ],
+      "dishes": [
+        {
+          "en": "Lychee pork",
+          "zh": "荔枝肉",
+          "aliases": [
+            "lychee pork",
+            "litchi pork"
+          ]
+        },
+        {
+          "en": "Guobianhu",
+          "zh": "锅边糊",
+          "aliases": [
+            "guo bian hu",
+            "ding bian hu",
+            "wok edge rice soup"
+          ],
+          "zh_alt": [
+            "鼎边糊"
+          ]
+        },
+        {
+          "en": "Fuzhou fish balls",
+          "zh": "福州鱼丸",
+          "aliases": [
+            "fuzhou fish ball",
+            "foochow fish ball",
+            "stuffed fish ball"
+          ]
+        },
+        {
+          "en": "Nanjiangan stir-fried liver",
+          "zh": "南煎肝",
+          "aliases": [
+            "nan jian gan",
+            "fried pork liver"
+          ]
+        },
+        {
+          "en": "Red-lees fried pork",
+          "zh": "炸红糟肉",
+          "aliases": [
+            "red wine lees pork",
+            "hongzao pork",
+            "red fermented pork"
+          ],
+          "zh_alt": [
+            "红糟肉"
+          ]
+        },
+        {
+          "en": "Fried spring rolls",
+          "zh": "炸春卷",
+          "aliases": [
+            "spring roll"
+          ],
+          "weight_override": 0.1
+        }
+      ],
+      "markers": [
+        "红糟",
+        "hongzao",
+        "red wine lees",
+        "肉燕",
+        "rou yan",
+        "扁肉",
+        "bian rou",
+        "佛跳墙",
+        "buddha jumps over the wall",
+        "光饼"
+      ]
+    },
+    {
+      "id": "fujian_west",
+      "name": "West Fujian Mountains (Shaxian)",
+      "zh_name": "沙县小吃",
+      "province": "fujian",
+      "neighbors": [],
+      "self_labels": [
+        "Shaxian",
+        "沙县",
+        "沙县小吃",
+        "Sanming",
+        "三明",
+        "Longyan",
+        "龙岩"
+      ],
+      "dishes": [
+        {
+          "en": "Shaxian wontons",
+          "zh": "沙县云吞",
+          "aliases": [
+            "shaxian wonton"
+          ],
+          "zh_alt": [
+            "沙县扁肉"
+          ]
+        },
+        {
+          "en": "Peanut sauce noodles",
+          "zh": "飘香拌面",
+          "aliases": [
+            "peanut sauce noodle",
+            "peanut noodles",
+            "shaxian noodle"
+          ],
+          "zh_alt": [
+            "沙县拌面"
+          ]
+        },
+        {
+          "en": "Midongpi",
+          "zh": "米冻皮",
+          "aliases": [
+            "mi dong pi"
+          ]
+        },
+        {
+          "en": "Shaxian shaomai",
+          "zh": "沙县烧麦",
+          "aliases": [
+            "shaxian shumai"
+          ]
+        },
+        {
+          "en": "Banya smoked duck",
+          "zh": "板鸭",
+          "aliases": [
+            "ban ya",
+            "pressed duck",
+            "smoked duck leg"
+          ]
+        },
+        {
+          "en": "Xiguo",
+          "zh": "喜粿",
+          "aliases": [
+            "xi guo"
+          ]
+        }
+      ],
+      "markers": [
+        "豆豉油",
+        "花生酱",
+        "peanut sauce",
+        "炖罐",
+        "stew pot"
+      ]
+    },
+    {
+      "id": "zhejiang_hangzhou",
+      "name": "Hangzhou",
+      "zh_name": "杭帮菜",
+      "province": "zhejiang",
+      "neighbors": [],
+      "self_labels": [
+        "Hangzhou",
+        "杭州",
+        "杭帮",
+        "Zhejiang",
+        "浙江",
+        "浙菜",
+        "West Lake",
+        "西湖"
+      ],
+      "dishes": [
+        {
+          "en": "Candied ham",
+          "zh": "蜜汁火方",
+          "aliases": [
+            "honey glazed ham",
+            "candied ham"
+          ]
+        },
+        {
+          "en": "Pian'er chuan noodles",
+          "zh": "片儿川",
+          "aliases": [
+            "pian er chuan",
+            "pianerchuan"
+          ]
+        },
+        {
+          "en": "Longjing shrimp",
+          "zh": "龙井虾仁",
+          "aliases": [
+            "longjing shrimp",
+            "dragon well shrimp",
+            "tea shrimp"
+          ]
+        }
+      ],
+      "markers": [
+        "西湖醋鱼",
+        "west lake fish",
+        "东坡肉",
+        "dongpo pork",
+        "叫花鸡",
+        "beggar's chicken",
+        "雪菜"
+      ]
+    },
+    {
+      "id": "zhejiang_shaoxing",
+      "name": "Shaoxing",
+      "zh_name": "绍兴菜",
+      "province": "zhejiang",
+      "neighbors": [],
+      "self_labels": [
+        "Shaoxing",
+        "绍兴"
+      ],
+      "dishes": [
+        {
+          "en": "Steamed double stinky",
+          "zh": "蒸双臭",
+          "aliases": [
+            "double stinky"
+          ]
+        },
+        {
+          "en": "Fennel broad beans",
+          "zh": "茴香豆",
+          "aliases": [
+            "fennel beans",
+            "anise broad beans",
+            "hui xiang dou"
+          ]
+        },
+        {
+          "en": "Sauce-preserved duck",
+          "zh": "酱鸭",
+          "aliases": [
+            "soy sauce duck",
+            "jiang ya",
+            "cured duck"
+          ]
+        },
+        {
+          "en": "Vegetarian goose",
+          "zh": "素烧鹅",
+          "aliases": [
+            "vegetarian goose",
+            "mock goose",
+            "bean curd skin goose"
+          ]
+        }
+      ],
+      "markers": [
+        "绍兴酒",
+        "黄酒",
+        "huangjiu",
+        "醉鸡",
+        "drunken chicken",
+        "霉干菜",
+        "梅干菜"
+      ]
+    },
+    {
+      "id": "zhejiang_ningbo",
+      "name": "Ningbo",
+      "zh_name": "宁波菜",
+      "province": "zhejiang",
+      "neighbors": [],
+      "self_labels": [
+        "Ningbo",
+        "宁波",
+        "甬"
+      ],
+      "dishes": [
+        {
+          "en": "Ningbo three delicacies",
+          "zh": "宁波老三鲜",
+          "aliases": [
+            "ningbo three delicacies"
+          ],
+          "zh_alt": [
+            "老三鲜"
+          ]
+        },
+        {
+          "en": "Walnut ginger pudding",
+          "zh": "核桃调蛋",
+          "aliases": [
+            "walnut ginger egg"
+          ]
+        },
+        {
+          "en": "Ningbo rice cakes with seaweed",
+          "zh": "苔条年糕",
+          "aliases": [
+            "seaweed rice cake",
+            "ningbo rice cake",
+            "ningbo nian gao"
+          ],
+          "zh_alt": [
+            "宁波年糕"
+          ]
+        }
+      ],
+      "markers": [
+        "年糕",
+        "rice cake",
+        "nian gao",
+        "黄鱼",
+        "yellow croaker",
+        "汤圆"
+      ]
+    },
+    {
+      "id": "zhejiang_ou",
+      "name": "Ou (Wenzhou-Taizhou-Lishui)",
+      "zh_name": "瓯菜",
+      "province": "zhejiang",
+      "neighbors": [],
+      "self_labels": [
+        "Wenzhou",
+        "温州",
+        "Taizhou",
+        "台州",
+        "Lishui",
+        "丽水"
+      ],
+      "dishes": [
+        {
+          "en": "Wenzhou loaded sticky rice",
+          "zh": "温州糯米饭",
+          "aliases": [
+            "wenzhou sticky rice"
+          ]
+        },
+        {
+          "en": "Jiashao braised fish",
+          "zh": "家烧杂鱼",
+          "aliases": [
+            "jia shao fish",
+            "home braised fish"
+          ]
+        },
+        {
+          "en": "Smashed shrimp noodles",
+          "zh": "敲虾面",
+          "aliases": [
+            "smashed shrimp noodle",
+            "pounded shrimp noodle"
+          ]
+        }
+      ],
+      "markers": [
+        "家烧",
+        "咸蛋浆",
+        "温州鱼丸"
+      ]
+    },
+    {
+      "id": "zhejiang_she",
+      "name": "She",
+      "zh_name": "畲族菜",
+      "province": "zhejiang",
+      "neighbors": [],
+      "self_labels": [
+        "She people",
+        "畲族",
+        "Jingning",
+        "景宁"
+      ],
+      "dishes": [
+        {
+          "en": "Black sticky rice",
+          "zh": "乌饭",
+          "aliases": [
+            "wu fan",
+            "black rice"
+          ]
+        },
+        {
+          "en": "Edamame tofu",
+          "zh": "豆腐娘",
+          "aliases": [
+            "dou fu niang",
+            "edamame tofu"
+          ]
+        },
+        {
+          "en": "Jingning rice noodle sheets",
+          "zh": "景宁粉皮",
+          "aliases": [
+            "jingning noodle"
+          ]
+        }
+      ],
+      "markers": [
+        "畲"
+      ]
+    },
+    {
+      "id": "zhejiang_jinhua",
+      "name": "Jinhua",
+      "zh_name": "金华菜",
+      "province": "zhejiang",
+      "neighbors": [],
+      "self_labels": [
+        "Jinhua",
+        "金华",
+        "Lanxi",
+        "兰溪",
+        "Wuyi",
+        "武义",
+        "Quzhou",
+        "衢州"
+      ],
+      "dishes": [
+        {
+          "en": "Jinhua ham",
+          "zh": "金华火腿",
+          "aliases": [
+            "jinhua ham"
+          ],
+          "weight_override": 0.3
+        },
+        {
+          "en": "Stinky tofu sandwich",
+          "zh": "炸馒头臭豆腐",
+          "aliases": [
+            "stinky tofu bun"
+          ]
+        },
+        {
+          "en": "Lanxi egg pancake",
+          "zh": "兰溪鸡蛋馃",
+          "aliases": [
+            "egg pancake",
+            "lanxi pancake"
+          ],
+          "zh_alt": [
+            "鸡蛋馃"
+          ]
+        },
+        {
+          "en": "Wuyi vinegar chicken",
+          "zh": "武义醋鸡",
+          "aliases": [
+            "vinegar chicken"
+          ]
+        },
+        {
+          "en": "Jiuniang tangyuan",
+          "zh": "酒酿小丸子",
+          "aliases": [
+            "jiuniang",
+            "fermented rice ball soup",
+            "rice wine dumpling"
+          ],
+          "weight_override": 0.3
+        },
+        {
+          "en": "Cold rice noodles",
+          "zh": "冷淘",
+          "aliases": [
+            "leng tao"
+          ]
+        }
+      ],
+      "markers": [
+        "火腿",
+        "酒酿"
+      ]
+    },
+    {
+      "id": "jiangsu_huaiyang",
+      "name": "Huaiyang (+ Tucai)",
+      "zh_name": "淮扬菜",
+      "province": "jiangsu_shanghai",
+      "neighbors": [],
+      "self_labels": [
+        "Huaiyang",
+        "淮扬",
+        "Yangzhou",
+        "扬州",
+        "Huai'an",
+        "淮安",
+        "Jiangsu",
+        "江苏",
+        "苏菜",
+        "Zhenjiang",
+        "镇江"
+      ],
+      "dishes": [
+        {
+          "en": "Lion's head meatball",
+          "zh": "狮子头",
+          "aliases": [
+            "lion's head",
+            "lion head meatball",
+            "lions head"
+          ],
+          "zh_alt": [
+            "红烧狮子头",
+            "清炖狮子头"
+          ]
+        },
+        {
+          "en": "Crab roe soup bao",
+          "zh": "蟹黄汤包",
+          "aliases": [
+            "crab soup bun",
+            "crab roe soup dumpling",
+            "crab xiao long bao"
+          ]
+        },
+        {
+          "en": "Dazhu gansi",
+          "zh": "大煮干丝",
+          "aliases": [
+            "shredded tofu soup",
+            "da zhu gan si",
+            "braised shredded tofu"
+          ],
+          "zh_alt": [
+            "煮干丝"
+          ]
+        },
+        {
+          "en": "Choudayuan",
+          "zh": "臭大圆",
+          "aliases": [
+            "stinky tofu and intestine"
+          ]
+        },
+        {
+          "en": "Braised old goose",
+          "zh": "红烧老鹅",
+          "aliases": [
+            "braised goose"
+          ]
+        },
+        {
+          "en": "Xuecai pork",
+          "zh": "雪菜肉丝",
+          "aliases": [
+            "pork with preserved mustard greens",
+            "pork with pickled vegetable",
+            "xue cai pork"
+          ],
+          "weight_override": 0.4
+        }
+      ],
+      "markers": [
+        "扬州早茶",
+        "淮扬",
+        "镇江醋",
+        "chinkiang vinegar",
+        "雪菜",
+        "干丝"
+      ]
+    },
+    {
+      "id": "jiangsu_nanjing",
+      "name": "Nanjing",
+      "zh_name": "金陵菜",
+      "province": "jiangsu_shanghai",
+      "neighbors": [],
+      "self_labels": [
+        "Nanjing",
+        "南京",
+        "金陵",
+        "Jinling"
+      ],
+      "dishes": [
+        {
+          "en": "Nanjing roast duck",
+          "zh": "南京烤鸭",
+          "aliases": [
+            "nanjing roast duck"
+          ]
+        },
+        {
+          "en": "Salted duck",
+          "zh": "盐水鸭",
+          "aliases": [
+            "salted duck",
+            "salt water duck",
+            "nanjing duck"
+          ]
+        },
+        {
+          "en": "Duck blood vermicelli soup",
+          "zh": "鸭血粉丝汤",
+          "aliases": [
+            "duck blood soup",
+            "duck blood vermicelli"
+          ],
+          "zh_alt": [
+            "鸭血粉丝"
+          ]
+        },
+        {
+          "en": "Eight treasure duck",
+          "zh": "八宝鸭",
+          "aliases": [
+            "eight treasure duck",
+            "stuffed duck"
+          ]
+        },
+        {
+          "en": "Nanjing crawfish",
+          "zh": "小龙虾",
+          "aliases": [
+            "crawfish",
+            "crayfish"
+          ],
+          "weight_override": 0.2
+        },
+        {
+          "en": "Osmanthus taro",
+          "zh": "桂花糖芋苗",
+          "aliases": [
+            "osmanthus taro"
+          ]
+        }
+      ],
+      "markers": [
+        "鸭血",
+        "盐水鸭",
+        "桂花"
+      ]
+    },
+    {
+      "id": "jiangsu_suxi",
+      "name": "Suzhou-Wuxi",
+      "zh_name": "苏锡菜",
+      "province": "jiangsu_shanghai",
+      "neighbors": [],
+      "self_labels": [
+        "Suzhou",
+        "苏州",
+        "Wuxi",
+        "无锡",
+        "苏帮"
+      ],
+      "dishes": [
+        {
+          "en": "'Big meat' noodles",
+          "zh": "大肉面",
+          "aliases": [
+            "big meat noodle",
+            "pork belly noodle"
+          ]
+        },
+        {
+          "en": "Cherry pork",
+          "zh": "樱桃肉",
+          "aliases": [
+            "cherry pork"
+          ]
+        },
+        {
+          "en": "Wuxi hot and sour soup",
+          "zh": "无锡酸辣汤",
+          "aliases": [
+            "wuxi hot and sour"
+          ]
+        },
+        {
+          "en": "Yulan cake",
+          "zh": "玉兰饼",
+          "aliases": [
+            "yulan bing",
+            "sticky rice meat dumpling"
+          ]
+        }
+      ],
+      "markers": [
+        "无锡排骨",
+        "wuxi ribs",
+        "酱排骨",
+        "松鼠鳜鱼",
+        "squirrel fish"
+      ]
+    },
+    {
+      "id": "jiangsu_north",
+      "name": "Jiangsu North",
+      "zh_name": "苏北菜",
+      "province": "jiangsu_shanghai",
+      "neighbors": [],
+      "self_labels": [
+        "Xuzhou",
+        "徐州",
+        "苏北",
+        "Lianyungang",
+        "连云港"
+      ],
+      "dishes": [
+        {
+          "en": "Diguo chicken",
+          "zh": "地锅鸡",
+          "aliases": [
+            "di guo chicken",
+            "earth pot chicken"
+          ]
+        },
+        {
+          "en": "Sazi jianbing rolls",
+          "zh": "撒子卷煎饼",
+          "aliases": [
+            "sazi jianbing"
+          ]
+        },
+        {
+          "en": "Xuzhou spicy soup",
+          "zh": "徐州辣汤",
+          "aliases": [
+            "xuzhou soup"
+          ],
+          "zh_alt": [
+            "辣汤"
+          ]
+        }
+      ],
+      "markers": [
+        "地锅",
+        "煎饼"
+      ]
+    },
+    {
+      "id": "shanghai",
+      "name": "Shanghai",
+      "zh_name": "本帮菜",
+      "province": "jiangsu_shanghai",
+      "neighbors": [],
+      "self_labels": [
+        "Shanghai",
+        "上海",
+        "沪",
+        "本帮",
+        "Shanghainese",
+        "海派"
+      ],
+      "dishes": [
+        {
+          "en": "Pan-fried bao",
+          "zh": "生煎",
+          "aliases": [
+            "sheng jian",
+            "shengjian",
+            "pan fried bun",
+            "pan-fried pork bun",
+            "pan fried soup dumpling"
+          ],
+          "zh_alt": [
+            "生煎包",
+            "生煎馒头"
+          ]
+        },
+        {
+          "en": "Fantuan sticky rice roll",
+          "zh": "粢饭团",
+          "aliases": [
+            "fan tuan",
+            "sticky rice roll",
+            "rice ball with cruller"
+          ],
+          "zh_alt": [
+            "粢饭"
+          ]
+        },
+        {
+          "en": "Hot meat noodles",
+          "zh": "辣肉面",
+          "aliases": [
+            "spicy pork noodle",
+            "la rou mian"
+          ]
+        },
+        {
+          "en": "Pork chop with rice cakes",
+          "zh": "排骨年糕",
+          "aliases": [
+            "pork chop rice cake",
+            "pork chop with rice cake"
+          ]
+        },
+        {
+          "en": "Russian soup (Shanghai borscht)",
+          "zh": "罗宋汤",
+          "aliases": [
+            "borscht",
+            "russian soup",
+            "luo song tang"
+          ]
+        }
+      ],
+      "markers": [
+        "小笼包",
+        "xiaolongbao",
+        "xiao long bao",
+        "soup dumpling",
+        "本帮",
+        "烤麸",
+        "kao fu",
+        "wheat gluten",
+        "上海粗炒",
+        "shanghai noodle",
+        "酱鸭",
+        "醉鸡",
+        "drunken chicken",
+        "葱油拌面",
+        "scallion oil noodle",
+        "糖醋小排"
+      ]
+    },
+    {
+      "id": "anhui_south",
+      "name": "Anhui South (Hui)",
+      "zh_name": "徽菜",
+      "province": "anhui",
+      "neighbors": [],
+      "self_labels": [
+        "Anhui",
+        "安徽",
+        "徽菜",
+        "徽",
+        "Huizhou",
+        "徽州",
+        "Huangshan",
+        "黄山",
+        "Shexian",
+        "歙县"
+      ],
+      "dishes": [
+        {
+          "en": "Hairy tofu",
+          "zh": "毛豆腐",
+          "aliases": [
+            "hairy tofu",
+            "mao dou fu"
+          ]
+        },
+        {
+          "en": "Fermented greens braised tofu",
+          "zh": "千里飘香",
+          "aliases": [
+            "qian li piao xiang"
+          ]
+        },
+        {
+          "en": "Yi pin guo",
+          "zh": "一品锅",
+          "aliases": [
+            "yi pin guo",
+            "one pot"
+          ]
+        }
+      ],
+      "markers": [
+        "臭鳜鱼",
+        "stinky mandarin fish",
+        "stinky fish",
+        "烂腌菜",
+        "臭豆腐",
+        "stinky tofu"
+      ]
+    },
+    {
+      "id": "anhui_luan",
+      "name": "Lu'an",
+      "zh_name": "六安菜",
+      "province": "anhui",
+      "neighbors": [],
+      "self_labels": [
+        "Lu'an",
+        "六安",
+        "Dabie",
+        "大别山"
+      ],
+      "dishes": [
+        {
+          "en": "Lu'an hanging pot",
+          "zh": "吊锅",
+          "aliases": [
+            "hanging pot",
+            "diao guo"
+          ]
+        },
+        {
+          "en": "Stinky tofu guoba",
+          "zh": "臭豆腐锅巴",
+          "aliases": [
+            "stinky tofu crispy rice"
+          ]
+        },
+        {
+          "en": "Soft baozi",
+          "zh": "软包子",
+          "aliases": [
+            "soft bun"
+          ]
+        }
+      ],
+      "markers": [
+        "砂汤",
+        "吊锅"
+      ]
+    },
+    {
+      "id": "anhui_north",
+      "name": "Anhui North & Central",
+      "zh_name": "皖北菜",
+      "province": "anhui",
+      "neighbors": [],
+      "self_labels": [
+        "Hefei",
+        "合肥",
+        "Fuyang",
+        "阜阳",
+        "Taihe",
+        "太和",
+        "皖北",
+        "Bengbu",
+        "蚌埠"
+      ],
+      "dishes": [
+        {
+          "en": "Zajiang edamame",
+          "zh": "毛豆杂酱",
+          "aliases": [
+            "edamame zajiang"
+          ]
+        },
+        {
+          "en": "Fuyang xianmo",
+          "zh": "阜阳地锅咸馍",
+          "aliases": [
+            "xian mo",
+            "fuyang pancake"
+          ],
+          "zh_alt": [
+            "咸馍"
+          ]
+        },
+        {
+          "en": "Taihe lamb noodles",
+          "zh": "太和羊肉板面",
+          "aliases": [
+            "banmian",
+            "ban mian",
+            "lamb ban noodle"
+          ],
+          "zh_alt": [
+            "羊肉板面",
+            "板面"
+          ]
+        },
+        {
+          "en": "Rooster pot",
+          "zh": "老公鸡",
+          "aliases": [
+            "rooster pot",
+            "old rooster"
+          ]
+        }
+      ],
+      "markers": [
+        "蚕豆酱",
+        "板面",
+        "格拉条"
+      ]
+    },
+    {
+      "id": "henan",
+      "name": "Henan",
+      "zh_name": "豫菜",
+      "province": "henan",
+      "neighbors": [],
+      "self_labels": [
+        "Henan",
+        "河南",
+        "豫",
+        "Zhengzhou",
+        "郑州",
+        "Kaifeng",
+        "开封",
+        "Luoyang",
+        "洛阳"
+      ],
+      "dishes": [
+        {
+          "en": "Huimian braised noodles",
+          "zh": "烩面",
+          "aliases": [
+            "hui mian",
+            "braised noodle",
+            "henan noodle"
+          ],
+          "zh_alt": [
+            "羊肉烩面",
+            "烩面片"
+          ]
+        },
+        {
+          "en": "Hot pepper soup",
+          "zh": "胡辣汤",
+          "aliases": [
+            "hu la tang",
+            "hulatang",
+            "pepper soup",
+            "spicy pepper soup"
+          ]
+        },
+        {
+          "en": "Zhuangmo stuffed bread",
+          "zh": "壮馍",
+          "aliases": [
+            "zhuang mo"
+          ]
+        }
+      ],
+      "markers": [
+        "面筋",
+        "gluten",
+        "道口烧鸡",
+        "逍遥镇"
+      ]
+    },
+    {
+      "id": "shanxi",
+      "name": "Shanxi",
+      "zh_name": "晋菜",
+      "province": "shanxi",
+      "neighbors": [],
+      "self_labels": [
+        "Shanxi",
+        "山西",
+        "晋",
+        "Taiyuan",
+        "太原",
+        "Datong",
+        "大同",
+        "Pingyao",
+        "平遥"
+      ],
+      "dishes": [
+        {
+          "en": "Kaolaolao oat noodles",
+          "zh": "栲栳栳",
+          "aliases": [
+            "kao lao lao",
+            "oat noodle rolls",
+            "naked oat noodles"
+          ],
+          "zh_alt": [
+            "莜面栲栳栳",
+            "莜面窝窝"
+          ]
+        },
+        {
+          "en": "Knife-cut noodles",
+          "zh": "刀削面",
+          "aliases": [
+            "knife cut noodle",
+            "knife-cut noodles",
+            "dao xiao mian",
+            "sliced noodles",
+            "shaved noodles"
+          ],
+          "weight_override": 0.5
+        },
+        {
+          "en": "Stone-baked flatbread",
+          "zh": "石子馍",
+          "aliases": [
+            "stone baked bread",
+            "shi zi mo"
+          ]
+        }
+      ],
+      "markers": [
+        "莜面",
+        "oat noodle",
+        "老陈醋",
+        "aged vinegar",
+        "shanxi vinegar",
+        "剔尖",
+        "猫耳朵",
+        "cat ear",
+        "过油肉",
+        "臊子"
+      ]
+    },
+    {
+      "id": "shandong_lu",
+      "name": "Lu (Classical Shandong)",
+      "zh_name": "鲁菜",
+      "province": "shandong",
+      "neighbors": [],
+      "self_labels": [
+        "Shandong",
+        "山东",
+        "鲁",
+        "鲁菜",
+        "Jinan",
+        "济南",
+        "Dezhou",
+        "德州",
+        "Zibo",
+        "淄博",
+        "Boshan",
+        "博山",
+        "Linyi",
+        "临沂"
+      ],
+      "dishes": [
+        {
+          "en": "Nine-twist intestine",
+          "zh": "九转大肠",
+          "aliases": [
+            "nine turn intestine",
+            "braised intestine",
+            "jiu zhuan da chang"
+          ]
+        },
+        {
+          "en": "Sweet and sour carp",
+          "zh": "糖醋鲤鱼",
+          "aliases": [
+            "sweet and sour carp",
+            "sweet & sour fish"
+          ],
+          "weight_override": 0.5
+        },
+        {
+          "en": "Pucai in milky stock",
+          "zh": "奶汤蒲菜",
+          "aliases": [
+            "cattail in milk soup",
+            "pucai"
+          ]
+        },
+        {
+          "en": "Leek jianbing",
+          "zh": "大葱煎饼",
+          "aliases": [
+            "shandong jianbing",
+            "shandong pancake"
+          ],
+          "zh_alt": [
+            "山东煎饼"
+          ]
+        },
+        {
+          "en": "'Cantonese meat' pork chop",
+          "zh": "广东肉",
+          "aliases": [
+            "guangdong rou"
+          ]
+        },
+        {
+          "en": "Dezhou braised chicken",
+          "zh": "德州扒鸡",
+          "aliases": [
+            "dezhou chicken"
+          ],
+          "zh_alt": [
+            "扒鸡"
+          ]
+        }
+      ],
+      "markers": [
+        "煎饼",
+        "大葱",
+        "把子肉",
+        "葱烧"
+      ]
+    },
+    {
+      "id": "shandong_jiaodong",
+      "name": "Jiaodong",
+      "zh_name": "胶东菜",
+      "province": "shandong",
+      "neighbors": [],
+      "self_labels": [
+        "Jiaodong",
+        "胶东",
+        "Qingdao",
+        "青岛",
+        "Yantai",
+        "烟台",
+        "Weihai",
+        "威海"
+      ],
+      "dishes": [
+        {
+          "en": "Scallion-braised sea cucumber",
+          "zh": "葱烧海参",
+          "aliases": [
+            "sea cucumber with scallion",
+            "braised sea cucumber"
+          ]
+        },
+        {
+          "en": "Penis fish",
+          "zh": "海肠",
+          "aliases": [
+            "penis fish",
+            "spoon worm",
+            "hai chang"
+          ]
+        },
+        {
+          "en": "Spanish mackerel dumplings",
+          "zh": "鲅鱼水饺",
+          "aliases": [
+            "mackerel dumpling",
+            "fish dumpling"
+          ],
+          "zh_alt": [
+            "鲅鱼饺子"
+          ]
+        }
+      ],
+      "markers": [
+        "海鲜水饺",
+        "seafood dumpling",
+        "鲅鱼",
+        "辣炒蛤蜊",
+        "spicy clams",
+        "青岛啤酒"
+      ]
+    },
+    {
+      "id": "hebei",
+      "name": "Hebei",
+      "zh_name": "冀菜",
+      "province": "jingjinji",
+      "neighbors": [],
+      "self_labels": [
+        "Hebei",
+        "河北",
+        "冀",
+        "Shijiazhuang",
+        "石家庄",
+        "Baoding",
+        "保定",
+        "Hejian",
+        "河间"
+      ],
+      "dishes": [
+        {
+          "en": "Donkey meat sandwich",
+          "zh": "驴肉火烧",
+          "aliases": [
+            "donkey burger",
+            "donkey meat sandwich",
+            "donkey sandwich",
+            "lv rou huo shao"
+          ]
+        },
+        {
+          "en": "Lion fish (carp)",
+          "zh": "狮子鱼",
+          "aliases": [
+            "lion fish"
+          ]
+        },
+        {
+          "en": "Baozi",
+          "zh": "包子",
+          "aliases": [
+            "baozi",
+            "steamed bun"
+          ],
+          "weight_override": 0.1
+        }
+      ],
+      "markers": [
+        "驴肉",
+        "donkey",
+        "火烧",
+        "huoshao"
+      ]
+    },
+    {
+      "id": "tianjin",
+      "name": "Tianjin",
+      "zh_name": "津菜",
+      "province": "jingjinji",
+      "neighbors": [],
+      "self_labels": [
+        "Tianjin",
+        "天津",
+        "津"
+      ],
+      "dishes": [
+        {
+          "en": "Four happy meatballs",
+          "zh": "四喜丸子",
+          "aliases": [
+            "four joy meatballs",
+            "four happiness meatballs",
+            "si xi wan zi"
+          ],
+          "weight_override": 0.4
+        },
+        {
+          "en": "Braised beef strips",
+          "zh": "扒牛肉条",
+          "aliases": [
+            "braised beef strips"
+          ]
+        },
+        {
+          "en": "Jianbing guozi",
+          "zh": "煎饼果子",
+          "aliases": [
+            "jianbing",
+            "jian bing",
+            "chinese crepe",
+            "jianbing guozi"
+          ]
+        },
+        {
+          "en": "Tangyou guozi",
+          "zh": "糖油果子",
+          "aliases": [
+            "sugar fried dough"
+          ]
+        },
+        {
+          "en": "Curry pulled noodles",
+          "zh": "黄汤拉面",
+          "aliases": [
+            "curry lamian"
+          ]
+        },
+        {
+          "en": "White sauce dishes",
+          "zh": "奶爆三样",
+          "aliases": [
+            "milk sauce stir fry"
+          ],
+          "zh_alt": [
+            "奶汁全爆"
+          ]
+        }
+      ],
+      "markers": [
+        "狗不理",
+        "goubuli",
+        "麻花",
+        "mahua",
+        "花椒油",
+        "sichuan pepper oil",
+        "锅巴菜"
+      ]
+    },
+    {
+      "id": "beijing",
+      "name": "Beijing",
+      "zh_name": "京菜",
+      "province": "jingjinji",
+      "neighbors": [],
+      "self_labels": [
+        "Beijing",
+        "北京",
+        "Peking",
+        "京",
+        "京味",
+        "老北京"
+      ],
+      "dishes": [
+        {
+          "en": "Peking duck",
+          "zh": "北京烤鸭",
+          "aliases": [
+            "peking duck",
+            "beijing duck",
+            "beijing roast duck"
+          ],
+          "zh_alt": [
+            "烤鸭"
+          ],
+          "weight_override": 0.5
+        },
+        {
+          "en": "Naibobo milk cake",
+          "zh": "奶饽饽",
+          "aliases": [
+            "nai bo bo"
+          ]
+        },
+        {
+          "en": "Imperial hotpot",
+          "zh": "宫廷火锅",
+          "aliases": [
+            "imperial hot pot",
+            "copper pot hotpot"
+          ]
+        }
+      ],
+      "markers": [
+        "炸酱面",
+        "zha jiang mian",
+        "zhajiang",
+        "涮羊肉",
+        "lamb hotpot",
+        "copper hotpot",
+        "卤煮",
+        "炒肝",
+        "豆汁",
+        "驴打滚",
+        "艾窝窝",
+        "京酱肉丝",
+        "shredded pork with sweet bean sauce"
+      ]
+    },
+    {
+      "id": "dongbei_general",
+      "name": "General Dongbei / Jilin",
+      "zh_name": "东北菜",
+      "province": "dongbei",
+      "neighbors": [],
+      "self_labels": [
+        "Dongbei",
+        "东北",
+        "Northeast",
+        "Northeastern",
+        "Manchurian",
+        "Jilin",
+        "吉林",
+        "Changchun",
+        "长春"
+      ],
+      "dishes": [
+        {
+          "en": "Guobaorou crispy sweet and sour pork",
+          "zh": "锅包肉",
+          "aliases": [
+            "guo bao rou",
+            "guobaorou",
+            "crispy sweet and sour pork",
+            "double cooked pork slices"
+          ]
+        },
+        {
+          "en": "Suancai with pork belly",
+          "zh": "酸菜白肉",
+          "aliases": [
+            "sour cabbage pork",
+            "pickled cabbage with pork belly",
+            "suan cai bai rou"
+          ],
+          "zh_alt": [
+            "酸菜白肉锅"
+          ]
+        },
+        {
+          "en": "Iron pot braise",
+          "zh": "铁锅炖",
+          "aliases": [
+            "iron pot stew",
+            "tie guo dun"
+          ]
+        },
+        {
+          "en": "Di san xian",
+          "zh": "地三鲜",
+          "aliases": [
+            "di san xian",
+            "eggplant potato pepper",
+            "three treasures of the earth"
+          ]
+        },
+        {
+          "en": "Hu bing",
+          "zh": "烀饼",
+          "aliases": [
+            "hu bing"
+          ]
+        },
+        {
+          "en": "Sauce-braised pork bones",
+          "zh": "酱骨架",
+          "aliases": [
+            "jiang gu jia",
+            "braised pork bone",
+            "sauce bone"
+          ],
+          "zh_alt": [
+            "酱大骨"
+          ]
+        }
+      ],
+      "markers": [
+        "酸菜",
+        "suan cai",
+        "pickled cabbage",
+        "东北大酱",
+        "粉条",
+        "glass noodle",
+        "大拉皮",
+        "拔丝",
+        "candied",
+        "小鸡炖蘑菇",
+        "猪肉炖粉条",
+        "溜肉段",
+        "东北"
+      ]
+    },
+    {
+      "id": "dongbei_liaoning",
+      "name": "Liaoning Dongbei",
+      "zh_name": "辽菜",
+      "province": "dongbei",
+      "neighbors": [],
+      "self_labels": [
+        "Liaoning",
+        "辽宁",
+        "Dalian",
+        "大连",
+        "Shenyang",
+        "沈阳",
+        "辽"
+      ],
+      "dishes": [
+        {
+          "en": "Shrimp paste braised squid",
+          "zh": "虾酱笔管",
+          "aliases": [
+            "shrimp paste squid"
+          ]
+        },
+        {
+          "en": "Seaweed pancake",
+          "zh": "海菜饼子",
+          "aliases": [
+            "seaweed pancake",
+            "wakame corn cake"
+          ]
+        },
+        {
+          "en": "Sanxian menzi",
+          "zh": "三鲜焖子",
+          "aliases": [
+            "menzi",
+            "men zi"
+          ],
+          "zh_alt": [
+            "焖子"
+          ]
+        }
+      ],
+      "markers": [
+        "虾酱",
+        "shrimp paste",
+        "虾油",
+        "海鲜"
+      ]
+    },
+    {
+      "id": "dongbei_heilongjiang",
+      "name": "Heilongjiang Dongbei",
+      "zh_name": "黑龙江菜",
+      "province": "dongbei",
+      "neighbors": [],
+      "self_labels": [
+        "Heilongjiang",
+        "黑龙江",
+        "Harbin",
+        "哈尔滨"
+      ],
+      "dishes": [
+        {
+          "en": "Harbin red sausage",
+          "zh": "哈尔滨红肠",
+          "aliases": [
+            "harbin sausage",
+            "red sausage",
+            "kielbasa"
+          ],
+          "zh_alt": [
+            "红肠"
+          ]
+        },
+        {
+          "en": "Lieba bread",
+          "zh": "列巴",
+          "aliases": [
+            "lieba",
+            "russian bread"
+          ]
+        },
+        {
+          "en": "Demoli stewed fish",
+          "zh": "得莫利炖鱼",
+          "aliases": [
+            "demoli fish",
+            "stewed fish with tofu and noodles"
+          ],
+          "zh_alt": [
+            "炖鱼"
+          ]
+        }
+      ],
+      "markers": [
+        "红肠",
+        "格瓦斯",
+        "kvass",
+        "俄式"
+      ]
+    },
+    {
+      "id": "dongbei_joseon",
+      "name": "Joseon (Yanbian Korean)",
+      "zh_name": "朝鲜族菜",
+      "province": "dongbei",
+      "neighbors": [],
+      "self_labels": [
+        "Yanbian",
+        "延边",
+        "Joseon",
+        "朝鲜族",
+        "Korean Chinese",
+        "Yanji",
+        "延吉"
+      ],
+      "dishes": [
+        {
+          "en": "Kimchi",
+          "zh": "泡菜",
+          "aliases": [
+            "kimchi"
+          ],
+          "weight_override": 0.3
+        },
+        {
+          "en": "Rice wrap",
+          "zh": "包饭",
+          "aliases": [
+            "ssam",
+            "rice wrap"
+          ]
+        },
+        {
+          "en": "Ice cold noodles",
+          "zh": "冷面",
+          "aliases": [
+            "cold noodles",
+            "naengmyeon",
+            "yanji cold noodle"
+          ],
+          "weight_override": 0.5
+        }
+      ],
+      "markers": [
+        "延边",
+        "打糕",
+        "明太鱼",
+        "石锅拌饭",
+        "bibimbap",
+        "辣白菜"
+      ]
+    },
+    {
+      "id": "inner_mongolia",
+      "name": "Inner Mongolia",
+      "zh_name": "内蒙古菜",
+      "province": "inner_mongolia",
+      "neighbors": [],
+      "self_labels": [
+        "Inner Mongolia",
+        "内蒙古",
+        "内蒙",
+        "Mongolian",
+        "蒙古",
+        "Hohhot",
+        "呼和浩特",
+        "Baotou",
+        "包头",
+        "Hulunbuir",
+        "呼伦贝尔"
+      ],
+      "dishes": [
+        {
+          "en": "Lamb shaomai",
+          "zh": "羊肉烧麦",
+          "aliases": [
+            "lamb shumai",
+            "mutton shaomai"
+          ],
+          "zh_alt": [
+            "羊肉烧卖"
+          ]
+        },
+        {
+          "en": "Shoubarou hand-held lamb",
+          "zh": "手把肉",
+          "aliases": [
+            "hand held lamb",
+            "boiled lamb",
+            "shou ba rou"
+          ]
+        },
+        {
+          "en": "Ice-boiled lamb hotpot",
+          "zh": "冰煮羊",
+          "aliases": [
+            "ice boiled lamb"
+          ]
+        }
+      ],
+      "markers": [
+        "蒙古奶茶",
+        "mongolian milk tea",
+        "奶茶",
+        "奶皮",
+        "莜面",
+        "烤全羊",
+        "whole roast lamb",
+        "羊肉"
+      ]
+    },
+    {
+      "id": "northwest_hanhui",
+      "name": "Northwest Han-Hui (Gansu/Qinghai/Ningxia)",
+      "zh_name": "西北菜",
+      "province": "northwest",
+      "neighbors": [],
+      "self_labels": [
+        "Lanzhou",
+        "兰州",
+        "Gansu",
+        "甘肃",
+        "Qinghai",
+        "青海",
+        "Xining",
+        "西宁",
+        "Ningxia",
+        "宁夏",
+        "Yinchuan",
+        "银川",
+        "西北",
+        "Northwest",
+        "Northwestern"
+      ],
+      "dishes": [
+        {
+          "en": "Lanzhou beef noodle soup",
+          "zh": "兰州牛肉面",
+          "aliases": [
+            "lanzhou noodle",
+            "lanzhou beef noodle",
+            "lanzhou lamian",
+            "hand pulled beef noodle soup",
+            "hand-pulled noodle soup"
+          ],
+          "zh_alt": [
+            "兰州拉面",
+            "牛肉拉面"
+          ]
+        },
+        {
+          "en": "Niangpi",
+          "zh": "酿皮",
+          "aliases": [
+            "niang pi",
+            "liangpi"
+          ]
+        },
+        {
+          "en": "Sweet fermented oats",
+          "zh": "甜醅子",
+          "aliases": [
+            "tian pei",
+            "fermented oats"
+          ],
+          "zh_alt": [
+            "甜醅"
+          ]
+        }
+      ],
+      "markers": [
+        "拉面",
+        "hand pulled",
+        "hand-pulled",
+        "lamian",
+        "手抓羊肉",
+        "清真",
+        "halal",
+        "蓬灰",
+        "牛肉面",
+        "dragon beard",
+        "面片",
+        "酸奶"
+      ]
+    },
+    {
+      "id": "xinjiang_han",
+      "name": "Han Xinjiang",
+      "zh_name": "新疆汉族菜",
+      "province": "xinjiang",
+      "neighbors": [],
+      "self_labels": [
+        "Xinjiang",
+        "新疆",
+        "Urumqi",
+        "乌鲁木齐",
+        "疆"
+      ],
+      "dishes": [
+        {
+          "en": "Big plate chicken",
+          "zh": "大盘鸡",
+          "aliases": [
+            "big plate chicken",
+            "da pan ji",
+            "dapanji"
+          ]
+        },
+        {
+          "en": "Xinjiang fried rice noodles",
+          "zh": "新疆炒米粉",
+          "aliases": [
+            "xinjiang rice noodle"
+          ]
+        },
+        {
+          "en": "Jiaoma chicken",
+          "zh": "椒麻鸡",
+          "aliases": [
+            "jiao ma chicken",
+            "numbing chicken"
+          ]
+        }
+      ],
+      "markers": [
+        "皮带面",
+        "裤带面",
+        "belt noodle",
+        "wide noodle",
+        "过油肉拌面",
+        "拌面"
+      ]
+    },
+    {
+      "id": "xinjiang_uighur",
+      "name": "Uighur Xinjiang",
+      "zh_name": "维吾尔族菜",
+      "province": "xinjiang",
+      "neighbors": [],
+      "self_labels": [
+        "Uyghur",
+        "Uighur",
+        "维吾尔",
+        "维族",
+        "Kashgar",
+        "喀什",
+        "Turpan",
+        "吐鲁番",
+        "Ili",
+        "伊犁",
+        "Silk Road"
+      ],
+      "dishes": [
+        {
+          "en": "Polo pilaf",
+          "zh": "手抓饭",
+          "aliases": [
+            "polo",
+            "polu",
+            "pilaf",
+            "plov",
+            "lamb pilaf",
+            "rice pilaf"
+          ],
+          "zh_alt": [
+            "抓饭"
+          ]
+        },
+        {
+          "en": "Samsa baked buns",
+          "zh": "烤包子",
+          "aliases": [
+            "samsa",
+            "samsa bun",
+            "baked lamb bun"
+          ]
+        },
+        {
+          "en": "Naan",
+          "zh": "馕饼",
+          "aliases": [
+            "nang",
+            "uyghur naan",
+            "xinjiang naan"
+          ],
+          "zh_alt": [
+            "馕"
+          ]
+        }
+      ],
+      "markers": [
+        "羊肉串",
+        "lamb skewer",
+        "lamb kebab",
+        "kebab",
+        "孜然",
+        "cumin",
+        "拉条子",
+        "laghman",
+        "lagman",
+        "烤羊排",
+        "dapanji",
+        "馕坑"
+      ]
+    },
+    {
+      "id": "shaanxi_central",
+      "name": "Shaanxi Central (Xi'an)",
+      "zh_name": "关中菜",
+      "province": "shaanxi",
+      "neighbors": [],
+      "self_labels": [
+        "Shaanxi",
+        "陕西",
+        "Xi'an",
+        "西安",
+        "Xian",
+        "秦",
+        "Guanzhong",
+        "关中",
+        "陕"
+      ],
+      "dishes": [
+        {
+          "en": "Liangpi cold skin noodles",
+          "zh": "凉皮",
+          "aliases": [
+            "liang pi",
+            "liangpi",
+            "cold skin noodle",
+            "cold skin noodles"
+          ],
+          "weight_override": 0.5
+        },
+        {
+          "en": "Roujiamo",
+          "zh": "肉夹馍",
+          "aliases": [
+            "rou jia mo",
+            "roujiamo",
+            "chinese hamburger",
+            "chinese burger",
+            "lamb burger",
+            "pork burger"
+          ]
+        },
+        {
+          "en": "Biang biang noodles",
+          "zh": "biangbiang面",
+          "aliases": [
+            "biang biang",
+            "biangbiang",
+            "hand ripped noodles",
+            "hand-ripped noodle",
+            "belt noodles"
+          ],
+          "zh_alt": [
+            "BB面",
+            "𰻞𰻞面"
+          ]
+        }
+      ],
+      "markers": [
+        "油泼面",
+        "you po mian",
+        "泡馍",
+        "paomo",
+        "羊肉泡馍",
+        "臊子面",
+        "saozi",
+        "岐山",
+        "冰峰",
+        "腊汁肉"
+      ]
+    },
+    {
+      "id": "shaanxi_north",
+      "name": "Shaanxi North",
+      "zh_name": "陕北菜",
+      "province": "shaanxi",
+      "neighbors": [],
+      "self_labels": [
+        "陕北",
+        "Shaanbei",
+        "Yan'an",
+        "延安",
+        "Yulin Shaanxi",
+        "榆林"
+      ],
+      "dishes": [
+        {
+          "en": "Shaanbei big braise",
+          "zh": "陕北大烩菜",
+          "aliases": [
+            "big braise",
+            "da hui cai"
+          ],
+          "zh_alt": [
+            "大烩菜"
+          ]
+        },
+        {
+          "en": "Zichang jianbing",
+          "zh": "子长煎饼",
+          "aliases": [
+            "zichang pancake"
+          ]
+        },
+        {
+          "en": "Potato caca",
+          "zh": "洋芋擦擦",
+          "aliases": [
+            "potato caca",
+            "steamed potato shreds"
+          ]
+        }
+      ],
+      "markers": [
+        "羊杂",
+        "洋芋"
+      ]
+    },
+    {
+      "id": "shaanxi_south",
+      "name": "Shaanxi South",
+      "zh_name": "陕南菜",
+      "province": "shaanxi",
+      "neighbors": [],
+      "self_labels": [
+        "陕南",
+        "Hanzhong",
+        "汉中",
+        "Ankang",
+        "安康"
+      ],
+      "dishes": [
+        {
+          "en": "Potato ciba",
+          "zh": "洋芋搅团",
+          "aliases": [
+            "potato mash cake"
+          ],
+          "zh_alt": [
+            "搅团"
+          ]
+        },
+        {
+          "en": "Hot rice skin",
+          "zh": "热米皮",
+          "aliases": [
+            "hot mipi",
+            "rice skin noodle"
+          ],
+          "zh_alt": [
+            "米皮"
+          ]
+        },
+        {
+          "en": "Mianpi",
+          "zh": "面皮",
+          "aliases": [
+            "mian pi",
+            "steamed wheat noodle sheet"
+          ],
+          "weight_override": 0.4
+        }
+      ],
+      "markers": [
+        "菜豆腐",
+        "汉中",
+        "米皮"
+      ]
+    },
+    {
+      "id": "hk_cantonese",
+      "name": "Hong Kong Cantonese",
+      "zh_name": "港式",
+      "province": "hk_macau",
+      "neighbors": [],
+      "self_labels": [
+        "Hong Kong",
+        "香港",
+        "HK",
+        "港式",
+        "港",
+        "Cha Chaan Teng",
+        "茶餐厅"
+      ],
+      "dishes": [
+        {
+          "en": "Macaroni soup",
+          "zh": "火腿通粉",
+          "aliases": [
+            "macaroni soup",
+            "ham macaroni"
+          ],
+          "zh_alt": [
+            "通粉"
+          ]
+        },
+        {
+          "en": "Pineapple bun",
+          "zh": "菠萝包",
+          "aliases": [
+            "pineapple bun",
+            "bo lo bao",
+            "polo bun"
+          ],
+          "zh_alt": [
+            "菠萝油"
+          ],
+          "weight_override": 0.4
+        },
+        {
+          "en": "Hong Kong milk tea",
+          "zh": "港式奶茶",
+          "aliases": [
+            "hong kong milk tea",
+            "hk milk tea",
+            "silk stocking milk tea"
+          ],
+          "zh_alt": [
+            "丝袜奶茶"
+          ]
+        },
+        {
+          "en": "Piggie cheong fun",
+          "zh": "猪肠粉",
+          "aliases": [
+            "street rice roll",
+            "hk rice roll"
+          ]
+        },
+        {
+          "en": "Typhoon shelter crab",
+          "zh": "避风塘炒蟹",
+          "aliases": [
+            "typhoon shelter",
+            "typhoon shelter crab",
+            "typhoon shelter shrimp"
+          ],
+          "zh_alt": [
+            "避风塘"
+          ]
+        },
+        {
+          "en": "Cart noodles",
+          "zh": "车仔面",
+          "aliases": [
+            "cart noodle",
+            "che zai mian"
+          ]
+        }
+      ],
+      "markers": [
+        "茶餐厅",
+        "cha chaan teng",
+        "西多士",
+        "french toast",
+        "鸳鸯",
+        "yuen yeung",
+        "yin yeung",
+        "沙爹",
+        "餐蛋",
+        "spam and egg",
+        "焗饭",
+        "baked rice",
+        "咖喱鱼蛋",
+        "curry fish ball"
+      ]
+    },
+    {
+      "id": "macau",
+      "name": "Macanese",
+      "zh_name": "澳门菜",
+      "province": "hk_macau",
+      "neighbors": [],
+      "self_labels": [
+        "Macau",
+        "Macao",
+        "澳门",
+        "Macanese",
+        "土生葡"
+      ],
+      "dishes": [
+        {
+          "en": "Tamarind pork",
+          "zh": "罗望子猪肉",
+          "aliases": [
+            "tamarind pork"
+          ]
+        },
+        {
+          "en": "Macanese fried rice noodles",
+          "zh": "西洋炒米粉",
+          "aliases": [
+            "macanese rice noodle"
+          ]
+        },
+        {
+          "en": "Portuguese egg tart",
+          "zh": "葡挞",
+          "aliases": [
+            "portuguese egg tart",
+            "pastel de nata",
+            "egg tart"
+          ],
+          "zh_alt": [
+            "葡式蛋挞",
+            "蛋挞"
+          ],
+          "weight_override": 0.3
+        }
+      ],
+      "markers": [
+        "葡国鸡",
+        "portuguese chicken",
+        "免治",
+        "minchi",
+        "猪扒包",
+        "pork chop bun"
+      ]
+    },
+    {
+      "id": "hk_teochew",
+      "name": "Hong Kong Teochew",
+      "zh_name": "香港潮州菜",
+      "province": "hk_macau",
+      "neighbors": [],
+      "self_labels": [
+        "Chiu Chow",
+        "Chiuchow"
+      ],
+      "dishes": [
+        {
+          "en": "Fishball noodles",
+          "zh": "鱼蛋粉",
+          "aliases": [
+            "fishball noodle",
+            "fish ball noodle"
+          ],
+          "zh_alt": [
+            "鱼蛋面"
+          ]
+        },
+        {
+          "en": "Wet-fried beef rice noodles",
+          "zh": "湿炒牛河",
+          "aliases": [
+            "wet fried beef ho fun",
+            "beef chow fun with gravy",
+            "wet beef ho fun"
+          ]
+        }
+      ],
+      "markers": [
+        "潮州辣椒油",
+        "chiu chow chili oil",
+        "牛肉火锅",
+        "beef hotpot",
+        "鱼蛋"
+      ]
+    },
+    {
+      "id": "taiwan_fujian",
+      "name": "Fujian-derived Taiwanese",
+      "zh_name": "台菜",
+      "province": "taiwan",
+      "neighbors": [],
+      "self_labels": [
+        "Taiwan",
+        "台湾",
+        "臺灣",
+        "Taiwanese",
+        "台式",
+        "台",
+        "Taipei",
+        "台北",
+        "Tainan",
+        "台南",
+        "Kaohsiung",
+        "高雄"
+      ],
+      "dishes": [
+        {
+          "en": "Taiwanese oyster omelette",
+          "zh": "蚵仔煎",
+          "aliases": [
+            "oyster omelette",
+            "oyster omelet",
+            "o ah jian",
+            "oyster pancake"
+          ]
+        },
+        {
+          "en": "Oyster vermicelli",
+          "zh": "蚵仔面线",
+          "aliases": [
+            "oyster vermicelli",
+            "oyster mee sua",
+            "misua"
+          ],
+          "zh_alt": [
+            "蚵仔面线糊",
+            "大肠面线"
+          ]
+        },
+        {
+          "en": "Squid geng",
+          "zh": "花枝羹",
+          "aliases": [
+            "squid potage",
+            "squid thick soup"
+          ]
+        }
+      ],
+      "markers": [
+        "卤肉饭",
+        "lu rou fan",
+        "braised pork rice",
+        "盐酥鸡",
+        "popcorn chicken",
+        "salt crispy chicken",
+        "鸡排",
+        "大肠包小肠",
+        "米糕",
+        "肉圆",
+        "ba wan",
+        "珍珠奶茶",
+        "bubble tea",
+        "boba"
+      ]
+    },
+    {
+      "id": "taiwan_juancun",
+      "name": "Juancun (Mainlander) Taiwanese",
+      "zh_name": "眷村菜",
+      "province": "taiwan",
+      "neighbors": [],
+      "self_labels": [
+        "眷村",
+        "juancun"
+      ],
+      "dishes": [
+        {
+          "en": "Gua bao",
+          "zh": "刈包",
+          "aliases": [
+            "gua bao",
+            "guabao",
+            "pork belly bun",
+            "taiwanese burger"
+          ],
+          "zh_alt": [
+            "割包"
+          ]
+        },
+        {
+          "en": "Taiwanese beef noodle soup",
+          "zh": "台式牛肉面",
+          "aliases": [
+            "taiwanese beef noodle",
+            "taiwan beef noodle soup"
+          ],
+          "zh_alt": [
+            "台湾牛肉面",
+            "红烧牛肉面"
+          ]
+        },
+        {
+          "en": "Taiwanese hot and sour soup",
+          "zh": "台式酸辣汤",
+          "aliases": [
+            "taiwanese hot and sour"
+          ]
+        }
+      ],
+      "markers": [
+        "酸菜",
+        "葱油饼",
+        "小笼包",
+        "豆浆",
+        "soy milk",
+        "烧饼",
+        "油条",
+        "蛋饼",
+        "dan bing"
+      ]
+    },
+    {
+      "id": "sea_teochew",
+      "name": "Southeast Asian Teochew",
+      "zh_name": "东南亚潮州菜",
+      "province": "southeast_asia",
+      "neighbors": [],
+      "self_labels": [
+        "Thai-Chinese",
+        "Thai Chinese",
+        "泰国潮州",
+        "Yaowarat",
+        "Bangkok Chinatown"
+      ],
+      "dishes": [
+        {
+          "en": "Chinese olive pork fried rice",
+          "zh": "乌榄肉碎炒饭",
+          "aliases": [
+            "olive fried rice",
+            "khao pad nam liap"
+          ]
+        },
+        {
+          "en": "Five fruits stir fry",
+          "zh": "炒五果",
+          "aliases": [
+            "five fruits"
+          ]
+        },
+        {
+          "en": "Goose foot noodles",
+          "zh": "鹅掌面",
+          "aliases": [
+            "goose feet noodle"
+          ]
+        }
+      ],
+      "markers": [
+        "乌榄",
+        "nam liap",
+        "粿条汤",
+        "kuay teow"
+      ]
+    },
+    {
+      "id": "sea_straits",
+      "name": "Straits Chinese (Malaysia/Singapore)",
+      "zh_name": "南洋菜",
+      "province": "southeast_asia",
+      "neighbors": [],
+      "self_labels": [
+        "Malaysian",
+        "Malaysia",
+        "马来西亚",
+        "Singapore",
+        "Singaporean",
+        "新加坡",
+        "Nanyang",
+        "南洋",
+        "Penang",
+        "槟城",
+        "Peranakan",
+        "Nyonya",
+        "娘惹",
+        "Indonesian Chinese"
+      ],
+      "dishes": [
+        {
+          "en": "Char kway teow",
+          "zh": "炒粿条",
+          "aliases": [
+            "char kway teow",
+            "char kueh teow",
+            "fried kway teow",
+            "ckt"
+          ]
+        },
+        {
+          "en": "Hainanese chicken rice (Straits)",
+          "zh": "海南鸡饭",
+          "aliases": [
+            "hainanese chicken rice",
+            "chicken rice"
+          ],
+          "weight_override": 0.5
+        },
+        {
+          "en": "Popiah",
+          "zh": "润饼",
+          "aliases": [
+            "popiah",
+            "lumpia",
+            "fresh spring roll"
+          ],
+          "zh_alt": [
+            "薄饼"
+          ]
+        },
+        {
+          "en": "Bak kut teh",
+          "zh": "肉骨茶",
+          "aliases": [
+            "bak kut teh",
+            "pork rib tea soup"
+          ]
+        },
+        {
+          "en": "Hokkien mee",
+          "zh": "福建面",
+          "aliases": [
+            "hokkien mee",
+            "hokkien noodles",
+            "hokkien prawn mee",
+            "fujian noodles"
+          ],
+          "zh_alt": [
+            "福建炒面",
+            "虾面"
+          ]
+        }
+      ],
+      "markers": [
+        "叻沙",
+        "laksa",
+        "椰浆饭",
+        "nasi lemak",
+        "沙爹",
+        "satay",
+        "roti",
+        "咖椰",
+        "kaya",
+        "参巴",
+        "sambal",
+        "黑酱油",
+        "sweet soy",
+        "马来"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "guangdong",
+      "name": "Guangdong",
+      "zh": "广东",
+      "self_labels": [
+        "Guangdong",
+        "广东",
+        "粤"
+      ],
+      "subcuisines": [
+        "guangdong_cantonese",
+        "guangdong_teochew",
+        "guangdong_hakka",
+        "guangdong_dongjiang_hakka",
+        "guangdong_lianzhou_yao",
+        "coastal_qinlianleiqiong"
+      ]
+    },
+    {
+      "id": "hainan",
+      "name": "Hainan",
+      "zh": "海南",
+      "self_labels": [
+        "Hainan",
+        "海南",
+        "琼"
+      ],
+      "subcuisines": [
+        "hainan_hlai"
+      ],
+      "also_tag": [
+        "coastal_qinlianleiqiong"
+      ]
+    },
+    {
+      "id": "guangxi",
+      "name": "Guangxi",
+      "zh": "广西",
+      "self_labels": [
+        "Guangxi",
+        "广西",
+        "桂"
+      ],
+      "subcuisines": [
+        "guangxi_yongyu",
+        "guangxi_guibei",
+        "guangxi_zhuang"
+      ],
+      "also_tag": [
+        "coastal_qinlianleiqiong"
+      ]
+    },
+    {
+      "id": "guizhou",
+      "name": "Guizhou",
+      "zh": "贵州",
+      "self_labels": [
+        "Guizhou",
+        "贵州",
+        "黔"
+      ],
+      "subcuisines": [
+        "guizhou_han",
+        "guizhou_south"
+      ]
+    },
+    {
+      "id": "yunnan",
+      "name": "Yunnan",
+      "zh": "云南",
+      "self_labels": [
+        "Yunnan",
+        "云南",
+        "滇"
+      ],
+      "subcuisines": [
+        "yunnan_han",
+        "yunnan_hui",
+        "yunnan_west",
+        "yunnan_puer_xsbn",
+        "yunnan_honghe",
+        "yunnan_dali"
+      ],
+      "also_tag": [
+        "tibetan"
+      ]
+    },
+    {
+      "id": "tibetan_plateau",
+      "name": "Tibetan Plateau",
+      "zh": "藏区",
+      "self_labels": [
+        "Tibet",
+        "Tibetan",
+        "西藏",
+        "藏"
+      ],
+      "subcuisines": [
+        "tibetan"
+      ]
+    },
+    {
+      "id": "sichuan_chongqing",
+      "name": "Sichuan & Chongqing",
+      "zh": "川渝",
+      "self_labels": [
+        "Sichuan",
+        "Szechuan",
+        "四川",
+        "川",
+        "Chongqing",
+        "重庆",
+        "渝",
+        "川渝"
+      ],
+      "subcuisines": [
+        "sichuan_upper",
+        "sichuan_lower",
+        "sichuan_salt",
+        "sichuan_yi"
+      ],
+      "also_tag": [
+        "tibetan"
+      ]
+    },
+    {
+      "id": "hubei",
+      "name": "Hubei",
+      "zh": "湖北",
+      "self_labels": [
+        "Hubei",
+        "湖北",
+        "鄂"
+      ],
+      "subcuisines": [
+        "hubei"
+      ],
+      "also_tag": [
+        "hunan_west"
+      ]
+    },
+    {
+      "id": "hunan",
+      "name": "Hunan",
+      "zh": "湖南",
+      "self_labels": [
+        "Hunan",
+        "湖南",
+        "湘"
+      ],
+      "subcuisines": [
+        "hunan_xiang",
+        "hunan_west"
+      ]
+    },
+    {
+      "id": "jiangxi",
+      "name": "Jiangxi",
+      "zh": "江西",
+      "self_labels": [
+        "Jiangxi",
+        "江西",
+        "赣"
+      ],
+      "subcuisines": [
+        "jiangxi",
+        "jiangxi_northeast"
+      ]
+    },
+    {
+      "id": "fujian",
+      "name": "Fujian",
+      "zh": "福建",
+      "self_labels": [
+        "Fujian",
+        "福建",
+        "闽"
+      ],
+      "subcuisines": [
+        "fujian_minnan",
+        "fujian_minbei",
+        "fujian_west"
+      ]
+    },
+    {
+      "id": "zhejiang",
+      "name": "Zhejiang",
+      "zh": "浙江",
+      "self_labels": [
+        "Zhejiang",
+        "浙江",
+        "浙"
+      ],
+      "subcuisines": [
+        "zhejiang_hangzhou",
+        "zhejiang_shaoxing",
+        "zhejiang_ningbo",
+        "zhejiang_ou",
+        "zhejiang_she",
+        "zhejiang_jinhua"
+      ]
+    },
+    {
+      "id": "jiangsu_shanghai",
+      "name": "Jiangsu & Shanghai",
+      "zh": "江苏/上海",
+      "self_labels": [
+        "Jiangsu",
+        "江苏",
+        "苏",
+        "Shanghai",
+        "上海",
+        "沪",
+        "Jiangnan",
+        "江南"
+      ],
+      "subcuisines": [
+        "jiangsu_huaiyang",
+        "jiangsu_nanjing",
+        "jiangsu_suxi",
+        "jiangsu_north",
+        "shanghai"
+      ]
+    },
+    {
+      "id": "anhui",
+      "name": "Anhui",
+      "zh": "安徽",
+      "self_labels": [
+        "Anhui",
+        "安徽",
+        "皖",
+        "徽"
+      ],
+      "subcuisines": [
+        "anhui_south",
+        "anhui_luan",
+        "anhui_north"
+      ]
+    },
+    {
+      "id": "henan",
+      "name": "Henan",
+      "zh": "河南",
+      "self_labels": [
+        "Henan",
+        "河南",
+        "豫"
+      ],
+      "subcuisines": [
+        "henan"
+      ]
+    },
+    {
+      "id": "shanxi",
+      "name": "Shanxi",
+      "zh": "山西",
+      "self_labels": [
+        "Shanxi",
+        "山西",
+        "晋"
+      ],
+      "subcuisines": [
+        "shanxi"
+      ]
+    },
+    {
+      "id": "shandong",
+      "name": "Shandong",
+      "zh": "山东",
+      "self_labels": [
+        "Shandong",
+        "山东",
+        "鲁"
+      ],
+      "subcuisines": [
+        "shandong_lu",
+        "shandong_jiaodong"
+      ]
+    },
+    {
+      "id": "jingjinji",
+      "name": "Beijing, Tianjin & Hebei",
+      "zh": "京津冀",
+      "self_labels": [
+        "Beijing",
+        "北京",
+        "Tianjin",
+        "天津",
+        "Hebei",
+        "河北"
+      ],
+      "subcuisines": [
+        "beijing",
+        "tianjin",
+        "hebei"
+      ]
+    },
+    {
+      "id": "dongbei",
+      "name": "Dongbei (Northeast)",
+      "zh": "东北",
+      "self_labels": [
+        "Dongbei",
+        "东北",
+        "Northeast",
+        "Northeastern",
+        "Manchuria"
+      ],
+      "subcuisines": [
+        "dongbei_general",
+        "dongbei_liaoning",
+        "dongbei_heilongjiang",
+        "dongbei_joseon"
+      ]
+    },
+    {
+      "id": "inner_mongolia",
+      "name": "Inner Mongolia",
+      "zh": "内蒙古",
+      "self_labels": [
+        "Inner Mongolia",
+        "内蒙古",
+        "Mongolian"
+      ],
+      "subcuisines": [
+        "inner_mongolia"
+      ]
+    },
+    {
+      "id": "northwest",
+      "name": "Northwest (Gansu/Qinghai/Ningxia)",
+      "zh": "西北",
+      "self_labels": [
+        "Northwest",
+        "西北",
+        "Gansu",
+        "甘肃",
+        "Lanzhou",
+        "兰州"
+      ],
+      "subcuisines": [
+        "northwest_hanhui"
+      ]
+    },
+    {
+      "id": "xinjiang",
+      "name": "Xinjiang",
+      "zh": "新疆",
+      "self_labels": [
+        "Xinjiang",
+        "新疆"
+      ],
+      "subcuisines": [
+        "xinjiang_han",
+        "xinjiang_uighur"
+      ]
+    },
+    {
+      "id": "shaanxi",
+      "name": "Shaanxi",
+      "zh": "陕西",
+      "self_labels": [
+        "Shaanxi",
+        "陕西",
+        "Xi'an",
+        "西安",
+        "秦"
+      ],
+      "subcuisines": [
+        "shaanxi_central",
+        "shaanxi_north",
+        "shaanxi_south"
+      ]
+    },
+    {
+      "id": "hk_macau",
+      "name": "Hong Kong & Macau",
+      "zh": "港澳",
+      "self_labels": [
+        "Hong Kong",
+        "香港",
+        "Macau",
+        "澳门",
+        "港澳"
+      ],
+      "subcuisines": [
+        "hk_cantonese",
+        "macau",
+        "hk_teochew"
+      ]
+    },
+    {
+      "id": "taiwan",
+      "name": "Taiwan",
+      "zh": "台湾",
+      "self_labels": [
+        "Taiwan",
+        "台湾",
+        "Taiwanese"
+      ],
+      "subcuisines": [
+        "taiwan_fujian",
+        "taiwan_juancun"
+      ]
+    },
+    {
+      "id": "southeast_asia",
+      "name": "Southeast Asian Chinese",
+      "zh": "东南亚华人",
+      "self_labels": [
+        "Nanyang",
+        "南洋",
+        "Malaysian",
+        "Singaporean",
+        "Thai-Chinese"
+      ],
+      "subcuisines": [
+        "sea_teochew",
+        "sea_straits"
+      ]
+    },
+    {
+      "id": "generic",
+      "name": "Generic / Pan-Chinese",
+      "zh": "综合",
+      "self_labels": [],
+      "subcuisines": [
+        "pan_chinese",
+        "american_chinese"
+      ]
+    }
+  ]
+}

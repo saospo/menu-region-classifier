@@ -1,0 +1,15 @@
+# config.toml: shared default settings (committed to the repo).
+# API keys and the Nimble budget go in secrets.toml (git-ignored). See secrets-example.toml.
+
+[nimble]
+base_url = "https://sdk.nimbleway.com/v2"
+timeout = 120                              # seconds; full_content and render can be slow
+
+[llm]
+providers = ["anthropic", "gemini", "openai"]   # tried in this order; providers without a key are skipped
+# provider = "gemini"                      # optional: move one provider to the front
+anthropic_model = "claude-sonnet-5-5"
+gemini_model = "gemini-2.5-flash"
+openai_model = "gpt-5-mini"
+max_tokens = 4096
+openai_max_tokens = 16000                  # OpenAI's reasoning models need more room

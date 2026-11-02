@@ -1,0 +1,9 @@
+# Core: matching, pipeline, Nimble client, map page. Enough for `python test.py` and offline runs.
+requests>=2.31
+rapidfuzz>=3.0
+opencc-python-reimplemented>=0.1.7
+
+# LLM providers: install the ones you have keys for (restaurant extraction in discover.py, optional adjudicator).
+anthropic>=0.40
+google-genai>=1.0
+openai>=1.60

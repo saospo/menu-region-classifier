@@ -1,0 +1,62 @@
+{
+  "unassigned_maps_links": [
+    "https://maps.app.goo.gl/ZPijwGQkopeRJa5r6",
+    "https://maps.app.goo.gl/UUJNP15KXxZQdWy36",
+    "https://maps.app.goo.gl/nSWM9qwH6YDWMLaW8"
+  ],
+  "restaurants": [
+    {
+      "name": "Ten Seconds Yunnan Rice Noodle",
+      "name_zh": "十秒到",
+      "region": "yunnan",
+      "area": "Long Island City / Sunnyside, Queens",
+      "lat": 40.7494409,
+      "lng": -73.9399071,
+      "maps_url": "https://maps.app.goo.gl/8wwgjsFKLVxpsJVq5",
+      "type": "rice-noodle shop",
+      "source": "user-labeled"
+    },
+    {
+      "name": "South of the Clouds",
+      "name_zh": "云之南",
+      "region": "yunnan",
+      "area": "Greenwich Village, Manhattan",
+      "type": "Yunnan restaurant",
+      "source": "user-labeled",
+      "notes": "Name is a poetic name for Yunnan (云南 = 'south of the clouds'), with no literal 云南 in it. Tests the self-label check."
+    },
+    {
+      "name": "Yun Nan Flavour Garden",
+      "region": "yunnan",
+      "area": "Sunset Park, Brooklyn",
+      "type": "full Yunnan menu, not a rice-noodle shop",
+      "source": "user-labeled",
+      "priority": "highest",
+      "notes": "KEY TEST: must be classified from non-noodle Yunnan dishes, not just 米线."
+    },
+    {
+      "name": "Yunnan Rice Noodle House",
+      "region": "yunnan",
+      "area": "Flushing, Queens",
+      "type": "rice-noodle shop",
+      "source": "user-labeled"
+    },
+    {
+      "name": "Nong Geng Ji",
+      "name_zh": "农耕记",
+      "region": "hunan",
+      "maps_url": "https://maps.app.goo.gl/ChxHDWXRKJ9Gu3s79",
+      "type": "Hunan restaurant",
+      "source": "user-labeled",
+      "notes": "Textbook Hunan restaurant."
+    },
+    {
+      "name": "Hunan Slurp",
+      "region": "hunan",
+      "maps_url": "https://maps.app.goo.gl/766tNVDTgdwMqdK57",
+      "type": "Hunan restaurant",
+      "source": "user-labeled",
+      "notes": "Reportedly permanently closed. Was a good Hunan place; a menu may no longer be findable."
+    }
+  ]
+}
