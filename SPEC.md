@@ -2,7 +2,7 @@
 
 (The map page it produces is titled "Regional Chinese Map".)
 
-**Status:** v0.1.0. See README.md for setup and the budget-aware run plan.
+**Status:** v0.0.9. See README.md for setup and the budget-aware run plan.
 
 **One-liner:** Find Chinese restaurants in a city, classify each one into a region using its menu, put them on a map, and show the evidence for every call.
 
