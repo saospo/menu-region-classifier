@@ -6,7 +6,7 @@
 
 It uses [Nimble](https://www.nimbleway.com/)'s live web search to find restaurants and their menus. The region taxonomy comes from Chinese Cooking Demystified's [*63 Chinese Cuisines: the Complete Guide*](https://chinesecookingdemystified.substack.com/p/63-chinese-cuisines-the-complete).
 
-> **v0.1.0**: first release. The classifier, pipeline and map work end to end and pass 52 offline tests. Real-world accuracy so far is measured on a small hand-labeled NYC gold set. See [Limitations](#limitations).
+> **v0.1.0**: first release. The classifier, pipeline and map work end to end and pass 51 offline tests. Real-world accuracy so far is measured on a small hand-labeled NYC gold set. See [Limitations](#limitations).
 
 ## How it works
 
@@ -36,15 +36,7 @@ pip install -r requirements.txt        # core + all three LLM SDKs; drop the one
 python test.py                          # 52 offline tests, no keys or network needed
 ```
 
-Keys (only the ones you use):
-
-| Variable | For |
-|---|---|
-| `NIMBLE_API_KEY` | Nimble search and extract |
-| `NIMBLE_BUDGET` | **Required for live Nimble calls.** The total number of live calls allowed across all runs, e.g. `20`, or `unlimited` |
-| `ANTHROPIC_API_KEY`, `GEMINI_API_KEY`, `OPENAI_API_KEY` | LLM providers (any one is enough) |
-| `LLM_PROVIDERS` | Fallback order, e.g. `openai,anthropic,gemini` (default `anthropic,gemini,openai`) |
-| `ANTHROPIC_MODEL`, `GEMINI_MODEL`, `OPENAI_MODEL` | Override the default models; check them against your account |
+Keys (only the ones you use): everything goes into secrets.toml. An example file is provided (secrets-example.toml).
 
 ## Running on a small Nimble budget
 
@@ -109,6 +101,15 @@ Set `NIMBLE_BUDGET=20` once. The ledger keeps counting across runs, so the cap h
 - **Nimble location results:** Nimble doesn't document their place fields, so addresses may come only from the pages found. `discover.py --geocode` fills coordinates from OpenStreetMap when there's an address.
 - **The default LLM model names** may not match what your account offers. Set `*_MODEL` explicitly.
 - **Region, not sub-cuisine.** Sub-cuisines (e.g. Dai, Han Yunnan) are shown as context, not predicted.
+
+## How this was built
+This grew out of my project at my very first individual, non-game-jam Hackathon (at the AI Engineer NYC conference in October 2026).
+I showed up late in the day, and I knew that I wanted to explore agentic development (I'm a lover of old school handwritten code). 
+So, natural solution: see what Claude can do. 
+
+I prepared prompts and repeatedly reworked Claude's logic for coherence, duplicated functionality, and plan adherence.
+Evidence of this: boundary tests ensure that individual modules cover individual function and there's no duplicated code.
+
 
 ## License
 
