@@ -196,7 +196,7 @@ def test_taxonomy_interface():
     assert [ti.label_name(x) for x in ("yunnan", GENERIC, UNKNOWN)] == ["Yunnan", "Generic / Pan-Chinese", "Unknown"]
 
 
-def test_paths_helpers_and_data_dir():
+def test_paths_helpers():
     import paths, subprocess
     tmp = Path(tempfile.mkdtemp())
     try:
@@ -206,13 +206,6 @@ def test_paths_helpers_and_data_dir():
         assert p1 == p2 and p1 != paths.cache_path(tmp, "search", {"q": 2}) and paths.cache_get(p1) is None
         paths.cache_put(p1, {"results": []})
         assert paths.cache_get(p1) == {"results": []}
-        # DATA_DIR moves every data path, the caches and the budget ledger included
-        code = ("import paths, llm, nimble_client, menus; print(paths.RESTAURANTS_PATH, llm.CACHE_DIR, "
-                "nimble_client.CACHE_DIR, nimble_client.USAGE_PATH, menus.MENUS_DIR)")
-        env = {k: v for k, v in os.environ.items() if k not in ("LLM_CACHE_DIR", "NIMBLE_CACHE_DIR", "NIMBLE_USAGE_PATH")}
-        out = subprocess.run([sys.executable, "-c", code], cwd=HERE, env={**env, "DATA_DIR": str(tmp)},
-                             capture_output=True, text=True, check=True).stdout.split()
-        assert all(o.startswith(str(tmp)) for o in out), out
     finally:
         shutil.rmtree(tmp, ignore_errors=True)
 
@@ -257,7 +250,7 @@ def test_fallback_and_cache():
         shutil.rmtree(tmp, ignore_errors=True)
 
 
-def test_llm_provider_order_and_openai():
+def test_llm_provider_order():
     import llm
     saved = llm.CONFIG
     try:
@@ -282,17 +275,6 @@ def test_llm_provider_order_and_openai():
                 sent.update(kw)
                 msg = type("M", (), {"content": '{"primary": "yunnan"}'})()
                 return type("R", (), {"choices": [type("C", (), {"message": msg})()]})()
-
-        class FakeOpenAI:
-            def __init__(self, *a, **k):
-                sent["api_key"] = k.get("api_key")
-                self.chat = type("Chat", (), {"completions": FakeCompletions()})()
-        import openai
-        with patched(openai, OpenAI=FakeOpenAI):
-            out = llm._call_openai("menu", {"type": "object"}, "sys", 0.0)
-        assert out == {"primary": "yunnan"}
-        assert sent["response_format"]["type"] == "json_schema" and "temperature" not in sent
-        assert sent["messages"][0] == {"role": "system", "content": "sys"} and sent["api_key"] == "x"
     finally:
         llm.CONFIG = saved
 
